@@ -1,45 +1,28 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,300,600&subset=cyrillic,latin');
 
-.circle-icon {
-    background: #ffc0c0;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 100px;
-    vertical-align: middle;
-    padding: 30px;
-}
 
-.container {
+
+.card-cont {
     display: flex;
     flex-direction: row;
     text-decoration: none;
-    justify-content: space-around;
-
+    justify-content: space-evenly;
 }
 
 
-span {
+.card-cont span {
     color:black;
     font-size:22px;
     display:flex;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
-    justify-items: space-between;
     text-decoration: none;
     
 }
 
-.container-2 {
-    display: inline-flexbox;
-    justify-content: space-around;
+.card-cont .container-2 {
+    display: flex;
+    justify-content: space-evenly;
     text-decoration: none;
+    margin-left: 116px;
 }
-
-.container-2 .div:hover .FontAwesomeIcon .circle { color: #158cc3 }
-.container-2 .div:hover .FontAwesomeIcon .search { color: #fff }
-.container-2 .copy:hover { color: #fff }
-.container-2 .vid:hover { color: #fff }
-.container-2 .info:hover { color: #fff }
-.container-2 .question:hover { color: #fff }

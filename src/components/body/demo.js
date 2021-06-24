@@ -1,4 +1,5 @@
 import React from 'react';
+import './demo.css';
 import "../../assets/css/theme-colors/default.css";
 import "../../assets/css/theme-skins/dark.css";
 import "../../assets/css/blocks.css";
@@ -18,7 +19,7 @@ import {Helmet} from 'react-helmet';
 
 function Demo() {
     return (
-        <div style={{ marginTop: 200, marginBottom: 200 }} >
+        <div style={{ marginTop: 120, marginBottom: 180 }} >
             <link rel="stylesheet" href="assets/css/theme-colors/default.css" id="style_color" />
             <link rel="stylesheet" href="assets/css/theme-skins/dark.css"/>
             <link rel="stylesheet" href="assets/css/blocks.css"/>
@@ -36,22 +37,25 @@ function Demo() {
             <Helmet>
             <script type="text/javascript" async src={"https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=TPaD2m"}></script>
             </Helmet>
-
+        <div className='container' style={{ marginTop: '-20px' }}>
             <div className="bg-color-light" id="tab3" >
-            <div className="container content-sm" style={{ paddingTop: "60px" }}>
-                <div className="row">
+            <div className="container content-sm" >
+                <div className='demo-hold'>
+                <div className="row" style={{ width: '1000px', marginLeft: 'auto', marginRight: 'auto' }}>
                     <div className="col-md-6">
-                        <h2 className="title-v2">Request a Demo</h2>
-                        <h4 >Prism Software can focus on customized solutions based on your organization's needs.</h4>  
+                        <h2 className="title-v2" style={{ fontWeight: 'bold', fontSize: '24px' }}>Request a Demo</h2>
+                        <h4 style={{ textAlign: 'left' }} >Prism Software can focus on customized solutions based on your organization's needs.</h4>  
 
                     </div>
                     <div className="col-md-6">
-                        <h2 className="title-v2"> </h2>
+                 
 
                         <div className="klaviyo-form-SgkCvU"></div>
                         
                     </div>
                 </div>
+            </div>
+            </div>
             </div>
             </div>
         </div>

@@ -1,19 +1,32 @@
-.container {
+
+
+
+.row .col {
     display: flex;
-    flex-direction: row;
-    padding: 60px;
-    width: 100%;
+    justify-content: center;
+    margin: 60px;
 }
 
-.container .row .col h1 {
+.row .col .card {
     display: flex;
-    min-width: 600px;
-    font-size: 20px;
+    width: 400px;
+    padding: 20px;
+    height: 200px;
+    box-shadow: 0 0 10px  rgba(160, 159, 159, 0.2);
+    justify-content: center;
+    border: none;
+    border-radius: 25px;
+}
+
+.row .col .card h3 {
+    display: flex;
+    font-size: 22px;
     margin-bottom: 30px;
     justify-content: center;
+    text-align: right;
 }
 
-.container .row .col p {
+.row .col .card p {
     font-size: 12px;
     display: flex;
     justify-content: center;

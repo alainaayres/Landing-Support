@@ -487,7 +487,7 @@
 	}
 
 	.header-v6 .dropdown-menu.no-bottom-space {
-		padding-bottom: 0;
+		padding-bottom: 0 !important;
 	}
 
   	/*Design for max-width: 991px*/
@@ -709,6 +709,7 @@
   	position: static;
 	max-width: 100%;
 	min-width: 100px;
+	padding: none;
 }
 
 .header-v6 .mega-menu .navbar-inner,
@@ -722,6 +723,7 @@
 
 .header-v6 .mega-menu .dropdown-menu > li {
   	display: block;
+	text-decoration: none;
 }
 
 .header-v6 .mega-menu .dropdown-submenu .dropdown-menu {
@@ -734,7 +736,6 @@
 
 .header-v6 .mega-menu .mega-menu-content {
   	*zoom: 1;
-  	padding: 0;
 }
 
 .header-v6 .mega-menu .mega-menu-content:before,
@@ -751,6 +752,7 @@
 .header-v6 .mega-menu.navbar .nav > li > .dropdown-menu:after,
 .header-v6 .mega-menu.navbar .nav > li > .dropdown-menu:before {
   	display: none;
+	text-decoration: none;
 }
 
 .header-v6 .mega-menu .dropdown.mega-menu-fullwidth .dropdown-menu {
@@ -790,8 +792,9 @@
 	color: #555;
 	font-size: 15px;
 	font-weight: 400;
-	padding: 0 10px 0 13px;
+	padding: 5px 10px 5px 15px;
 	text-transform: uppercase;
+	text-decoration: none;
 }
 
 /*Space for only Big Resolution*/
@@ -822,6 +825,7 @@
         position: relative;
         border-bottom: none;
         padding: 5px 10px 5px 15px;
+		text-decoration: none;
     }
 
     .header-v6 .mega-menu .equal-height-list a:hover {
@@ -829,11 +833,11 @@
     }
 
     /*Dropdown Arrow Icons*/
-    .header-v6 .mega-menu .mega-menu-fullwidth li a {
+    .header-v6 .mega-menu .mega-menu li a {
     	padding: 5px 10px 5px 30px;
     }
 
-    .header-v6 .mega-menu .mega-menu-fullwidth li a:after {
+    .header-v6 .mega-menu .mega-menu li a:after {
         top: 7px;
         left: 15px;
         font-size: 11px;
@@ -845,11 +849,11 @@
     }
 
     /*Dropdown Arrow Icons Disable class*/
-    .header-v6 .mega-menu .mega-menu-fullwidth .disable-icons li a {
+    .header-v6 .mega-menu .mega-menu .disable-icons li a {
     	padding: 5px 10px 5px 15px;
     }
 
-    .header-v6 .mega-menu .mega-menu-fullwidth .disable-icons li a:after {
+    .header-v6 .mega-menu .mega-menu .disable-icons li a:after {
     	display: none;
     }
 }

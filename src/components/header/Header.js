@@ -110,8 +110,8 @@ export class Header extends Component {
           {/*=== Header v6 ===*/}
           <div>
             {/* Navbar */}
-            <nav className="navbar mega-menu" role="navigation">
-              <div className="container-fluid">
+            <nav className="navbar mega-menu" role="navigation" >
+              <div className="container">
                 {/* Brand and toggle get grouped for better mobile display */}
                 <div className="menu-container">
                   <button type="button" className="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
@@ -134,8 +134,8 @@ export class Header extends Component {
                   {/* ENd Navbar Brand */}
                     <ul className="nav navbar-nav">
                       {/* Products */}
-                      <li className="dropdown mega-menu-fullwidth">
-                        <a href className="dropdown-toggle" target data-toggle="dropdown">
+                      <li className="dropdown">
+                        <a href className="dropdown-toggle" target data-toggle="dropdown" >
                           Products
                         </a>
                         <ul className="dropdown-menu">
@@ -234,6 +234,21 @@ export class Header extends Component {
                         <a href="http://support.prismsoftware.com" className="dropdown-toggle" data-toggle target="_blank">
                           Support
                         </a>
+                         <ul className="dropdown-menu">
+                          <li>
+                            <div className="dropdown disable-icons">
+                              <div className="dropdown-list">
+                                <ul className=" list-unstyled equal-height-list">
+                                  <li><a href="support/"> Support</a></li>
+                                  <br />
+                                  <li className><a href="documentation/">Product Documentation</a></li>
+                                  <br />
+                                  <li className><a href="videos/">Product Training Videos</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                          </li>
+                        </ul>
                       </li>
                       {/* End Support */}
                       {/* Company */}

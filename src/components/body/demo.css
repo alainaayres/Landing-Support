@@ -1,0 +1,16 @@
+
+.bg-color-light {
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+    align-items: center;
+    align-content: center;
+    width: 1300px;
+    height: 200px;
+    box-shadow: 0 4px 8px 0 rgba(165, 164, 164, 0.2), 0 6px 20px 0 rgba(165, 165, 165, 0.19);
+}
+
+.demo-hold .container h2 {
+    text-align: left;
+}
+
