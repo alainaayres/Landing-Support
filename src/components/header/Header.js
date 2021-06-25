@@ -132,13 +132,13 @@ export class Header extends Component {
                         </a>
                       </div>
                   {/* ENd Navbar Brand */}
-                    <ul className="nav navbar-nav">
+                    <ul className="nav navbar-nav" >
                       {/* Products */}
                       <li className="dropdown">
                         <a href className="dropdown-toggle" target data-toggle="dropdown" >
                           Products
                         </a>
-                        <ul className="dropdown-menu">
+                        <ul className="dropdown-menu" style={{ width: '1100px', left: '10%' }}>
                           <li>
                             <div className="mega-menu-content disable-icons">
                               <div className="container">
@@ -154,17 +154,21 @@ export class Header extends Component {
                                       {/* End ECM */}
                                       <br />
                                       <li>
-                                        <h3>RPA/ETL Automation</h3>
+                                        <h3>Desktop Document Processing &amp; Workflow</h3>
                                       </li>
                                       {/* WorkPath family */}
                                       <li>
                                         <a href="https://www.prismsoftware.com/products/prism-workpath/">
-                                          WorkPath Desktop</a>
+                                          Prism WorkPath</a>
+                                      </li>
+                                      <br />
+                                      <li>
+                                        <h3>Smartphone Forms with eSignature</h3>
                                       </li>
                                       <li>
-                                        <a href="https://www.prismsoftware.com/products/workpath-standard/">
-                                          WorkPath Standard</a>
-                                      </li> 
+                                        <a href="https://www.prismsoftware.com/products/smartphone-forms/">Smartphone Forms
+                                        </a>
+                                      </li>
                                       {/* End WorkPath family*/}
                                     </ul>
                                   </div>
@@ -208,17 +212,7 @@ export class Header extends Component {
                                           SECURE Alert</a>
                                       </li>
                                       <br />
-                                      <li>
-                                        <h3>Smartphone Forms with eSignature</h3>
-                                      </li>
-                                      <li>
-                                        <a href="https://www.prismsoftware.com/products/smartphone-forms/">Smartphone Forms
-                                        </a>
-                                        {/* <a
-                                                                        href="https://www.prismsupport.com/test/products/smartphone-forms/">Smartphone Forms
-                                                                    
-                                                                    </a> */}
-                                      </li>
+                                      
                                       {/* End Smartphone Forms */}
                                     </ul>
                                   </div>
