@@ -138,7 +138,7 @@ export class Header extends Component {
                         <a href className="dropdown-toggle" target data-toggle="dropdown" >
                           Products
                         </a>
-                        <ul className="dropdown-menu" style={{ width: '1100px', left: '10%' }}>
+                        <ul className="dropdown-menu" style={{ width: '1050px', left: '8%' }}>
                           <li>
                             <div className="mega-menu-content disable-icons">
                               <div className="container">
@@ -149,7 +149,7 @@ export class Header extends Component {
                                         <h3>Enterprise Content Management (ECM)</h3>
                                       </li>
                                       {/* ECM */}
-                                      <li><a href="https://www.prismsoftware.com/products/ecm/">DocRecord</a>
+                                      <li><a href="https://www.prismsoftware.com/products/ecm/" target="_blank">DocRecord</a>
                                       </li>
                                       {/* End ECM */}
                                       <br />
@@ -158,7 +158,7 @@ export class Header extends Component {
                                       </li>
                                       {/* WorkPath family */}
                                       <li>
-                                        <a href="https://www.prismsoftware.com/products/prism-workpath/">
+                                        <a href="https://www.prismsoftware.com/products/prism-workpath/" target="_blank">
                                           Prism WorkPath</a>
                                       </li>
                                       <br />
@@ -166,7 +166,7 @@ export class Header extends Component {
                                         <h3>Smartphone Forms with eSignature</h3>
                                       </li>
                                       <li>
-                                        <a href="https://www.prismsoftware.com/products/smartphone-forms/">Smartphone Forms
+                                        <a href="https://www.prismsoftware.com/products/smartphone-forms/" target="_blank">Smartphone Forms
                                         </a>
                                       </li>
                                       {/* End WorkPath family*/}
@@ -178,21 +178,21 @@ export class Header extends Component {
                                         <h3>Automated Data Capture &amp; Extraction</h3>
                                       </li>
                                       <li>
-                                        <a href="https://www.prismsoftware.com/products/prism-capture/">Prism
+                                        <a href="https://www.prismsoftware.com/products/prism-capture/" target="_blank">Prism
                                           Capture</a></li>
                                       <br />
                                       <li>
                                         <h3>Automated Processing of Scanned Documents</h3>
                                       </li>
                                       <li>
-                                        <a href="https://www.prismsoftware.com/products/scanpath/">ScanPath</a>
+                                        <a href="https://www.prismsoftware.com/products/scanpath/" target="_blank">ScanPath</a>
                                       </li>
                                       <br />
                                       <li>
                                         <h3>Automated Business Communications</h3>
                                       </li>
                                       <li>
-                                        <a href="https://www.prismsoftware.com/products/docform/">DocForm</a> 
+                                        <a href="https://www.prismsoftware.com/products/docform/" target="_blank">DocForm</a> 
                                       </li>
                                     </ul>
                                   </div>
@@ -202,13 +202,13 @@ export class Header extends Component {
                                         <h3>eForms &amp; Data Collection</h3>
                                       </li>
                                       <li>
-                                        <a href="https://www.prismsoftware.com/products/electronic-forms/">eForms</a>
+                                        <a href="https://www.prismsoftware.com/products/electronic-forms/" target="_blank">eForms</a>
                                       </li>
                                       <br />
                                       <li>
                                         <h3>MFP Security &amp; Breach Alerts</h3>
                                       </li>
-                                      <li><a href="https://www.prismsoftware.com/products/bizhub-secure-alert/">bizhub
+                                      <li><a href="https://www.prismsoftware.com/products/bizhub-secure-alert/" target="_blank">bizhub
                                           SECURE Alert</a>
                                       </li>
                                       <br />
@@ -225,7 +225,7 @@ export class Header extends Component {
                       {/* End Products */}
                       {/* Support */}
                       <li className="dropdown">
-                        <a href="http://support.prismsoftware.com" className="dropdown-toggle" data-toggle target="_blank">
+                        <a className="dropdown-toggle" data-toggle>
                           Support
                         </a>
                          <ul className="dropdown-menu">
@@ -233,11 +233,11 @@ export class Header extends Component {
                             <div className="dropdown disable-icons">
                               <div className="dropdown-list">
                                 <ul className=" list-unstyled equal-height-list">
-                                  <li><a href="support/"> Support</a></li>
+                                  <li><a href="http://support.prismsoftware.com"> Support</a></li>
                                   <br />
-                                  <li className><a href="documentation/">Product Documentation</a></li>
+                                  <li className><a href="https://prismsupport.com/documentation" target="_blank">Product Documentation</a></li>
                                   <br />
-                                  <li className><a href="videos/">Product Training Videos</a></li>
+                                  <li className><a href="https://www.prismsupport.com/documentation/Content/A_IntroTopics/Video-Library.htm" target="_blank">Product Training Videos</a></li>
                                 </ul>
                               </div>
                             </div>
@@ -263,9 +263,9 @@ export class Header extends Component {
                             <div className="dropdown disable-icons">
                               <div className="dropdown-list">
                                 <ul className=" list-unstyled equal-height-list">
-                                  <li><a href="about/"> Company</a></li>
+                                  <li><a href="https://prismsoftware.com/about/" target="_blank"> Company</a></li>
                                   <br />
-                                  <li className><a href="news/">News</a></li>
+                                  <li className><a href="https://prismsoftware.com/news/" target="_blank">News</a></li>
                                 </ul>
                               </div>
                             </div>
@@ -275,7 +275,7 @@ export class Header extends Component {
                       {/* End Company */}
                       {/* Demo */}
                       <li className="dropdown">
-                        <a className="dropdown-toggle" href="https://prismsoftware.com/contact-us/">
+                        <a className="dropdown-toggle" href="https://prismsoftware.com/contact-us/" target="_blank">
                           <button type="submit" className="text-uppercase btn-u btn-u-blue" style={{padding: '0px 5px 0px 5px'}}>Schedule a Demo </button>
                         </a>
                       </li>

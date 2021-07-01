@@ -12,7 +12,7 @@ import "../../assets/plugins/bootstrap/css/bootstrap.css";
 
 function Footer() {
     return (
-        <div stlye={{ marginTop: 50 }}>
+        <div stlye={{ marginTop: 50, dispaly: 'flex' }}>
         <link rel="stylesheet" href="../../assets/css/footers/footer-v6.css" />
         <link rel="stylesheet" href="../../assets/css/custom.css" />
         <link rel="stylesheet" href="../../assets/css/theme-colors/default.css" id="style_color" />

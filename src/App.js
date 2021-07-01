@@ -5,9 +5,13 @@ import Icons from './components/body/icons.js';
 import Demo from './components/body/demo.js';
 import Footer from './components/footer/footer.js';
 import Contacts from './components/body/contacts.js';
+import { useMediaQuery } from 'react-responsive';
 
 export class App extends Component {
   render() {
+
+
+
     return (
       <div>
         <Header />

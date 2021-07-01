@@ -11,20 +11,21 @@ import '../../assets/css/custom.css'
 import './headPhoto.css'
 import laughing from '../laughing.jpg';
 import glasses from '../glasses.jpg';
+import gradient from '../whitegradient.jpg';
 
 function HeadPhoto() {
     return (
       
-    <div className='header'>
-     <div className='container-fluid' style={{ maxHeight:'300px', position:'relative', fontSize:'4vw' }} >
+    <div className='header' >
+     <div className='container' style={{ maxHeight:'300px', position:'relative', fontSize:'4vw' }} >
        <link rel="stylesheet" href="../assets/css/blocks.css" />
        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600&subset=cyrillic,latin" />
        <link rel="stylesheet" href="../assets/css/custom.css" />
        <link rel="stylesheet" href="../assets/css/app.css" />
-           <img src={glasses} className='img-fluid' alt="Responsive image" style={{ maxHeight:'300px', width:'100%', objectFit: 'cover' }} />
+           <img src={gradient} className='img-fluid' alt="Responsive image" style={{ maxHeight:'300px', width:'100%', objectFit: 'cover' }} />
             <div className='centered' > 
                <h1>Browse our resources</h1>
-               <h2>Take advantage of all the resources that Prism has to offer to maximize the value <br /> of your Prism Software solutions</h2>
+               <h3>Take advantage of all the resources that Prism has to offer to maximize <br /> the value of your Prism Software solutions</h3>
             </div>
       </div>
     </div>

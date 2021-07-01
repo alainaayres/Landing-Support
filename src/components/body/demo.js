@@ -19,7 +19,7 @@ import {Helmet} from 'react-helmet';
 
 function Demo() {
     return (
-        <div style={{ marginTop: 120, marginBottom: 180 }} >
+        <div style={{ marginTop: 120, marginBottom: 180, display: 'flex' }} >
             <link rel="stylesheet" href="assets/css/theme-colors/default.css" id="style_color" />
             <link rel="stylesheet" href="assets/css/theme-skins/dark.css"/>
             <link rel="stylesheet" href="assets/css/blocks.css"/>
@@ -50,7 +50,7 @@ function Demo() {
                     <div className="col-md-6">
                  
 
-                        <div className="klaviyo-form-SgkCvU"></div>
+                        <div className="klaviyo-form-Uqi64F"></div>
                         
                     </div>
                 </div>
