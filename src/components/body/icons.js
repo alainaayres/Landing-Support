@@ -12,9 +12,9 @@ function Icons() {
         <div className='card-cont'>
             <div className='container-2'>
             <a href={"mailto:support@prismsoftware.com"} target="_blank" style={{ textDecoration: 'none' }}>
-                <div className=' fas fa-layers fa-fw' style={{ marginLeft: -24, marginTop: 100 }} >
-                    <FontAwesomeIcon className='circle' icon={faCircle} style={{ fontSize: '8rem', color: '#158cc3' }}></FontAwesomeIcon>
-                    <FontAwesomeIcon className='search' icon={faEnvelope} style={{ zIndex:99, fontSize: '3rem', color: '#fff', marginLeft: 25 }}></FontAwesomeIcon>
+                <div className='fas fa-layers fa-fw' style={{ marginLeft: -24, marginTop: 100 }} >
+                    <FontAwesomeIcon className='circle' icon={faCircle}></FontAwesomeIcon>
+                    <FontAwesomeIcon className='search' icon={faEnvelope}></FontAwesomeIcon>
                 </div>
                 <span style={{ paddingTop: 50, marginLeft: '-26px' }}>Request<br/>Support</span>
             </a>
@@ -22,8 +22,8 @@ function Icons() {
              <div className='container-2'>
              <a href="https://get.teamviewer.com/prismsoftware" target="_blank" style={{ textDecoration: 'none' }} >
                 <div className=' fas fa-layers fa-fw' style={{ marginLeft: 20, marginTop: 100 }} >
-                    <FontAwesomeIcon icon={faCircle} style={{ fontSize: '8rem', color: '#158cc3' }}></FontAwesomeIcon>
-                    <FontAwesomeIcon icon={faDesktop} style={{ zIndex:99, fontSize: '3rem', color: 'white', marginLeft: 23 }}></FontAwesomeIcon>
+                    <FontAwesomeIcon className='circle' icon={faCircle} ></FontAwesomeIcon>
+                    <FontAwesomeIcon className='desktop' icon={faDesktop} ></FontAwesomeIcon>
                 </div>
                 <span style={{ paddingTop: 50, marginRight: '-35px' }}>Get Remote<br/>Support</span>
             </a>
@@ -31,8 +31,8 @@ function Icons() {
             <div className='container-2'>
             <a href="https://prismsupport.com/documentation" target="_blank" style={{ textDecoration: 'none' }} >
                 <div className=' fas fa-layers fa-fw' style={{ marginLeft: 40, marginTop: 100 }} >
-                    <FontAwesomeIcon icon={faCircle} style={{ fontSize: '8rem', color: '#158cc3' }}></FontAwesomeIcon>
-                    <FontAwesomeIcon icon={faCopy} style={{ zIndex:99, fontSize: '3rem', color: 'white', marginLeft: 27 }}></FontAwesomeIcon>
+                    <FontAwesomeIcon className='circle' icon={faCircle} ></FontAwesomeIcon>
+                    <FontAwesomeIcon className='copy' icon={faCopy} ></FontAwesomeIcon>
                 </div>
                 <span style={{ paddingTop: 50, marginRight: '-30px' }}>Product<br/>Documentation</span>
             </a>
@@ -40,8 +40,8 @@ function Icons() {
             <div className='container-2'>
             <a href="https://www.prismsupport.com/documentation/Content/A_IntroTopics/Video-Library.htm" target="_blank" style={{ textDecoration: 'none' }} >
                 <div className=' fas fa-layers fa-fw' style={{ marginLeft: 12, marginTop: 100 }} >
-                    <FontAwesomeIcon icon={faCircle} style={{ fontSize: '8rem', color: '#158cc3' }}></FontAwesomeIcon>
-                    <FontAwesomeIcon icon={faVideo} style={{ zIndex:99, fontSize: '3rem', color: 'white', marginLeft: 25 }}></FontAwesomeIcon>
+                    <FontAwesomeIcon className='circle' icon={faCircle} ></FontAwesomeIcon>
+                    <FontAwesomeIcon className='video' icon={faVideo} ></FontAwesomeIcon>
                 </div>
                 <span style={{ paddingTop: 50, marginLeft: '-30px' }}>Product<br/>Training Videos</span>
             </a>
@@ -49,8 +49,8 @@ function Icons() {
             <div className='container-2'>
             <a>
                 <div className=' fas fa-layers fa-fw' style={{ marginLeft: '-6px', marginTop: 100 }} >
-                    <FontAwesomeIcon icon={faCircle} style={{ fontSize: '8rem', color: '#158cc3' }}></FontAwesomeIcon>
-                    <FontAwesomeIcon icon={faInfo} style={{ zIndex:99, fontSize: '3rem', color: 'white', marginLeft: 33 }}></FontAwesomeIcon>
+                    <FontAwesomeIcon className='circle' icon={faCircle} ></FontAwesomeIcon>
+                    <FontAwesomeIcon className='info' icon={faInfo} ></FontAwesomeIcon>
                 </div>
                 <span style={{ paddingTop: 50, marginLeft: '-50px', marginRight: '50px' }}>Technical<br/>Knowledge Base</span>
             </a>

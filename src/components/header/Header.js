@@ -138,7 +138,7 @@ export class Header extends Component {
                         <a href className="dropdown-toggle" target data-toggle="dropdown" >
                           Products
                         </a>
-                        <ul className="dropdown-menu" style={{ width: '1050px', left: '8%' }}>
+                        <ul className="first dropdown-menu" style={{ width: '1050px', left: '8%' }}>
                           <li>
                             <div className="mega-menu-content disable-icons">
                               <div className="container">

@@ -5,7 +5,7 @@ import bootstrap from 'bootstrap';
 function Contacts() {
     return (
         <div>
-        <div className='container-fluid' >
+        <div className='container' >
             <div className='row' >
             <div className='col'>
                 <div className='card' >

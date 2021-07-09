@@ -19,7 +19,7 @@ import {Helmet} from 'react-helmet';
 
 function Demo() {
     return (
-        <div style={{ marginTop: 120, marginBottom: 180, display: 'flex' }} >
+        <div style={{ padding: '7vw', display: 'flex', justifyItems: 'center', position: 'relative' }} >
             <link rel="stylesheet" href="assets/css/theme-colors/default.css" id="style_color" />
             <link rel="stylesheet" href="assets/css/theme-skins/dark.css"/>
             <link rel="stylesheet" href="assets/css/blocks.css"/>
@@ -37,20 +37,20 @@ function Demo() {
             <Helmet>
             <script type="text/javascript" async src={"https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=TPaD2m"}></script>
             </Helmet>
-        <div className='container' style={{ marginTop: '-20px' }}>
-            <div className="bg-color-light" id="tab3" >
-            <div className="container content-sm" >
-                <div className='demo-hold'>
-                <div className="row" style={{ width: '1000px', marginLeft: 'auto', marginRight: 'auto' }}>
-                    <div className="col-md-6">
-                        <h2 className="title-v2" style={{ fontWeight: 'bold', fontSize: '24px' }}>Request a Demo</h2>
-                        <h4 style={{ textAlign: 'left' }} >Prism Software can focus on customized solutions based on your organization's needs.</h4>  
+        <div className='container' style={{ marginTop: '-20px', justifyContent: 'center', position: 'relative', display: 'flex' }}>
+            <div className="gray bg-color-light" id="tab3" style={{ justifyContent: 'center' }} >
+            <div className="container content-sm" style={{ justifyContent: 'center' }} >
+                <div className='demo-hold' style={{ justifyContent: 'center' }}>
+                <div className="row" style={{ justifyContent: 'center' }}>
+                    <div className="col-md-6" style={{ padding: '5px' }}>
+                        <h2 className="title-v2" >Request a Demo</h2>
+                        <h4 style={{ textAlign: 'left', position: 'relative' }} >Prism Software can focus on customized solutions based on your organization's needs.</h4>  
 
                     </div>
                     <div className="col-md-6">
                  
 
-                        <div className="klaviyo-form-Uqi64F"></div>
+                        <div className="klaviyo-form-Uqi64F" stlye={{ position: 'relative' }}></div>
                         
                     </div>
                 </div>
