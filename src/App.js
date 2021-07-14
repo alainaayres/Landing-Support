@@ -28,11 +28,10 @@ const App = () => {
       <div >
        <Header />
        <HeadPhoto />
+       <Icons />
        <Contacts />
        <Demo />
        <Footer />
-      <p>Your are in {isPortrait ? 'portrait' : 'landscape'} orientation</p>
-      {isRetina && <p>You are retina</p>}
       </div>
     )
 }

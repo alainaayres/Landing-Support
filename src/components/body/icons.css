@@ -1,18 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,300,600&subset=cyrillic,latin');
 
 
-
-.card-cont {
-    display: flex;
-    flex-direction: row;
-    text-decoration: none;
-    justify-content: space-evenly;
-}
-
-
 .card-cont span {
     color:black;
-    font-size:22px;
+    font-size:16px;
     display:flex;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
@@ -24,269 +15,24 @@
     display: flex;
     justify-content: space-evenly;
     text-decoration: none;
-    margin-left: 116px;
+    margin-left: 100px;
 }
 
-.card-cont .container-2 .fas .circle {
-    font-size: 2rem;
-    color: #158cc3
-}
-
-.card-cont .container-2 .fas .search {
-    z-index:99;
-    font-size: 2rem;
-    color: #fff;
-    margin-left: 25
-}
-
-.card-cont .container-2 .fas .desktop {
-    z-index:99;
-    font-size: 2rem;
-    color: #fff;
-    margin-left: 25
-}
-
-.card-cont .container-2 .fas .copy {
-    z-index:99;
-    font-size: 2rem;
-    color: #fff;
-    margin-left: 25
-}
-
-.card-cont .container-2 .fas .video {
-    z-index:99;
-    font-size: 2rem;
-    color: #fff;
-    margin-left: 25
-}
-
-.card-cont .container-2 .fas .info {
-    z-index:99;
-    font-size: 3rem;
-    color: #fff;
-    margin-left: 25
-}
-
-@media (min-width: 280px) {
-    .card-cont {
+@media (max-width: 850px) {
+    .container-fluid .card-cont {
         display: flex;
-        flex-flow: row wrap;
-        text-decoration: none;
-        justify-content: space-evenly;
-    }
-    
-    
-    .card-cont span {
-        color:black;
-        font-size:22px;
-        display:flex;
-        text-align: center;
-        font-family: 'Open Sans', sans-serif;
-        text-decoration: none;
-        
-    }
-    
-    .card-cont .container-2 {
-        display: flex;
-        justify-content: space-evenly;
-        text-decoration: none;
-        margin-left: 116px;
-    }
 
-  }
-
-  @media (min-width: 3500px) {
-    .card-cont {
-        display: flex;
         flex-direction: column;
-        text-decoration: none;
-        justify-content: space-evenly;
+        justify-content: left;
     }
-    
-    
-    .card-cont span {
-        color:black;
-        font-size:22px;
-        display:flex;
-        text-align: center;
-        font-family: 'Open Sans', sans-serif;
-        text-decoration: none;
-        
-    }
-    
+
     .card-cont .container-2 {
-        display: flex;
-        justify-content: space-evenly;
+        display: absolute;
+        position:relative;
         text-decoration: none;
-        margin-left: 116px;
+        margin-left: 60px;
+    }
     }
 
-  }
 
-  @media (min-width: 480px) {
-    .card-cont {
-        display: flex;
-        flex-direction: row;
-        text-decoration: none;
-        justify-content: space-evenly;
-    }
-    
-    
-    .card-cont span {
-        color:black;
-        font-size:22px;
-        display:flex;
-        text-align: center;
-        font-family: 'Open Sans', sans-serif;
-        text-decoration: none;
-        
-    }
-    
-    .card-cont .container-2 {
-        display: flex;
-        justify-content: space-evenly;
-        text-decoration: none;
-        margin-left: 116px;
-    }
 
-  }
-
-  @media (min-width: 600px) {
-    .card-cont {
-        display: flex;
-        flex-direction: row;
-        text-decoration: none;
-        justify-content: space-evenly;
-    }
-    
-    
-    .card-cont span {
-        color:black;
-        font-size:22px;
-        display:flex;
-        text-align: center;
-        font-family: 'Open Sans', sans-serif;
-        text-decoration: none;
-        
-    }
-    
-    .card-cont .container-2 {
-        display: flex;
-        justify-content: space-evenly;
-        text-decoration: none;
-        margin-left: 116px;
-    }
-
-  }
-
-  @media (min-width: 768px) {
-    .card-cont {
-        display: flex;
-        flex-direction: row;
-        text-decoration: none;
-        justify-content: space-evenly;
-    }
-    
-    
-    .card-cont span {
-        color:black;
-        font-size:22px;
-        display:flex;
-        text-align: center;
-        font-family: 'Open Sans', sans-serif;
-        text-decoration: none;
-        
-    }
-    
-    .card-cont .container-2 {
-        display: flex;
-        justify-content: space-evenly;
-        text-decoration: none;
-        margin-left: 116px;
-    }
-
-  }
-
-  @media (min-width: 900px) {
-    .card-cont {
-        display: flex;
-        flex-direction: row;
-        text-decoration: none;
-        justify-content: space-evenly;
-    }
-    
-    
-    .card-cont span {
-        color:black;
-        font-size:22px;
-        display:flex;
-        text-align: center;
-        font-family: 'Open Sans', sans-serif;
-        text-decoration: none;
-        
-    }
-    
-    .card-cont .container-2 {
-        display: flex;
-        justify-content: space-evenly;
-        text-decoration: none;
-        margin-left: 116px;
-    }
-
-  }
-
-  @media (min-width: 1024px) {
-    .card-cont {
-        display: flex;
-        flex-direction: row;
-        text-decoration: none;
-        justify-content: space-evenly;
-    }
-    
-    
-    .card-cont span {
-        color:black;
-        font-size:22px;
-        display:flex;
-        text-align: center;
-        font-family: 'Open Sans', sans-serif;
-        text-decoration: none;
-        
-    }
-    
-    .card-cont .container-2 {
-        display: flex;
-        justify-content: space-evenly;
-        text-decoration: none;
-        margin-left: 116px;
-    }
-
-  }
-
-  @media (min-width: 1200px) {
-    .card-cont {
-        display: flex;
-        flex-direction: row;
-        text-decoration: none;
-        justify-content: space-evenly;
-    }
-    
-    
-    .card-cont span {
-        color:black;
-        font-size:22px;
-        display:flex;
-        text-align: center;
-        font-family: 'Open Sans', sans-serif;
-        text-decoration: none;
-        
-    }
-    
-    .card-cont .container-2 {
-        display: flex;
-        justify-content: space-evenly;
-        text-decoration: none;
-        margin-left: 116px;
-    }
-
-  }
