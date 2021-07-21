@@ -1,0 +1,425 @@
+/* Add here all your css styles (customizations) */
+.video-promo-screen {
+    background: rgba(0,0,0,0.8);
+}
+.layer {
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+    max-height: 573px;
+}
+/* header fonts */
+.ITCAvantGardeStd-XLt {
+    font-family: ITCAvantGardeStd-XLt;
+    font-weight: normal;
+    font-style: normal;
+    /* height: 50px; */
+    /*display: inline-table;*/
+    font-size: 50px;
+    margin-top: 20px;
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    color: black;
+    min-height: 50px;
+    line-height: initial;
+    padding-bottom: 10px;
+
+}
+.ITCAvantGardeStd-XLt i{
+    font-size: 10px;
+    font-style: normal;
+    margin-left: -10px;
+}
+.ITCAvantGardeStd-Bk {
+    font-family: ITCAvantGardeStd-Bk;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.video-wrap {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: hidden;
+}
+
+.video-wrap video {
+    min-width: 100%; 
+    min-height: 100%; 
+  
+    /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+    width: auto;
+    height: auto;
+    
+    /* Center the video */
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.video-wrap p {
+    overflow: hidden;
+    text-shadow: rgba(0,0,0,0.2);
+    text-align: center;
+    color: #fff;
+}
+
+/*this was commented out originally */
+.video-wrap h1, h2 {
+    overflow: hidden;
+    text-shadow: rgba(0,0,0,0.2);
+    /* text-align: center; */
+    color: #fff;
+} 
+.video-font-1 {
+    /*overflow: hidden;*/
+    text-shadow: rgba(0,0,0,0.2);
+    text-align: center;
+    /*color: #fff;*/
+    font-size: 42px;
+}
+.video-font-2 {
+    /*overflow: hidden;*/
+    text-shadow: rgba(0,0,0,0.2);
+    text-align: center;
+    /*color: #fff;*/
+    font-size: 45px;
+    font-weight: lighter;
+}
+.wrap {
+    position: relative;
+    overflow: hidden;
+    /*min-height: min-content;*/
+}
+
+.bg-color-darker-auto {
+    /*height:auto;*/
+}
+.mask {
+    background-image: url(../video/shutterstock_hands.png);
+    height: 30px;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    margin-top:-30px;
+}
+
+.i-custom {
+    background: transparent;
+}
+.i-custom-img {
+    width: 60px;
+    height: 60px;
+}
+.img-products {
+    height: 40px;
+    margin-bottom: 20px;
+    display: block;
+    margin-top: 20px;
+}
+.img-title {
+    margin: auto;
+    padding-top: 20px;
+    /*font-style: italic;*/
+    text-align: center;
+}
+
+.g-pa-30 {
+    padding: 2.14286rem !important; 
+}
+/*Cookie Consent Begin*/
+#cookieConsent {
+    background-color: rgba(20,20,20,0.8);
+    border-radius: 5px 5px 0  0;
+    min-height: 26px;
+    font-size: 14px;
+    color: #ccc;
+    line-height: 26px;
+    padding: 8px 0 8px 30px;
+    position: fixed;
+    width: 80%;
+    bottom: 0;
+    left: 10%;
+    right: 10%;
+    display: none;
+    z-index: 9999;
+}
+#cookieConsent a {
+    color: #4B8EE7;
+    text-decoration: none;
+}
+#closeCookieConsent {
+    float: right;
+    display: inline-block;
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    padding-top: 15px;
+    margin: -15px 0 0 0;
+    font-weight: bold;
+}
+#closeCookieConsent:hover {
+    color: #FFF;
+}
+#cookieConsent a.cookieConsentOK {
+    background-color: #3498db;
+    color: white;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 0 20px;
+    cursor: pointer;
+    float: right;
+    margin: 0 60px 0 10px;
+}
+#cookieConsent a.cookieConsentOK:hover {
+    background-color: #3498db;
+}
+/*Cookie Consent End*/
+
+/*home page parallax content */
+
+
+.tab-v4 .tab-heading-v h4 {
+    font-size: 14px;
+    font-weight: 500;
+    color: lightgray;
+    border-left: 2px solid #eee;
+  }
+  .parallax-quote-1 {
+    background-color: #158CC3;
+    padding: 20px 0;
+    text-align: center;
+  
+  }
+
+/*Parallax Quote Inner*/
+
+.parallax-quote-in p {
+  color: #fff;
+  font-size: 22px;
+  text-transform: uppercase;
+  font-family: "Open Sans", Arial, sans-serif;
+  /*font-family: Open Sans, "Helvetica Neue", Helvetica, Arial, sans-serif;;*/
+
+}
+.parallax-quote-in-1 p {
+  /* color: #717984; */
+  font-weight: 200;
+  color: white;
+
+  font-size: 14px;
+  font-style: italic;
+  line-height: 3rem;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+.parallax-quote-in p:after,
+.parallax-quote-in p:before {
+  content: ' " ';
+  position: absolute;
+  font-family: Tahoma;
+}
+
+.parallax-quote-in p:after {
+  margin-left: 3px;
+}
+
+.parallax-quote-in p:before {
+  margin-left: -15px;
+}
+
+.parallax-quote-in small {
+  color: #eee;
+  font-size: 13px;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+.parallax-quote-in-1 h4 {
+  font-size: 15px; 
+  font-weight: 500;
+  color: lightgray;
+  /* text-transform: uppercase; */
+}
+.parallax-quote-in-1 small {
+  font-size: 14px; 
+  font-weight: 500;
+  color:lightgray;
+  text-transform: uppercase;
+}
+
+/*New iClass row*/
+.content-boxes-v7 i {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+	/*color: #999;*/
+	width: 80px;
+	height: 80px;
+	padding: 11px;
+	font-size: 32px;
+	/*background: #eee;*/
+  background: transparent;
+  line-height: 28px;
+	text-align: center;
+	/* margin-right: 15px; */
+	/* display: inline-block; */
+}
+
+.content-boxes-v7:hover i {
+	color: #fff;
+  background: #158cc3;
+	/*background: #72c02c;*/
+}
+.content-boxes-v7 a{
+  color: #555;
+  text-decoration: none;
+}
+.content-boxes-v7:hover a{
+  color: #555;
+  text-decoration: none;
+}
+
+
+ /*Tabs v1*/
+ .tab-sub .nav-tabs {
+    border: none;
+    background: none;
+    border-bottom: solid 2px #bf1e2d;
+}
+
+.tab-sub .nav-tabs a {
+   font-size: 14px;
+   padding: 5px 15px;
+}
+
+.tab-sub .nav-tabs > .active > a,
+.tab-sub .nav-tabs > .active > a:hover,
+.tab-sub.nav-tabs > .active > a:focus {
+   color: #fff;
+   border: none;
+   background: #bf1e2d;
+}
+
+.tab-sub .nav-tabs > li > a {
+   border: none;
+}
+.tab-sub .nav-tabs > li > a:hover {
+   color: #fff;
+   background: #bf1e2d;
+}
+
+.tab-sub .tab-content {
+   padding: 10px 0;
+}
+
+.tab-sub .tab-content img {
+   margin-top: 4px;
+   margin-bottom: 15px;
+}
+
+.tab-sub .tab-content img.img-tab-space {
+   margin-top: 7px;
+}
+
+/*Tabs v2*/
+.tab-v2 .nav-tabs {
+    border-bottom: none;
+  }
+  
+  .tab-v2 .nav-tabs li a {
+    padding: 9px 16px;
+    background: none;
+    border: none;
+  }
+  
+  .tab-v2 .nav-tabs li.active a {
+    background: #fff;
+    padding: 7px 15px 9px;
+    border: solid 1px #eee;
+    border-top: solid 2px #72c02c;
+    border-bottom: none !important;
+  }
+  
+  .tab-v2 .tab-content {
+    padding: 10px 16px;
+    border: solid 1px #eee;
+  }
+  /*Tabs v2
+------------------------------------*/
+.tab-v2 .nav-tabs {
+	border-bottom: none;
+}
+
+.tab-v2 .nav-tabs li a {
+	padding: 9px 16px;
+	background: none;
+	border: none;
+}
+
+.tab-v2 .nav-tabs li.active a {
+	background: #fff;
+	padding: 7px 15px 9px;
+	border: solid 1px #eee;
+	border-top: solid 2px #72c02c;
+	border-bottom: none !important;
+}
+
+.tab-v2 .tab-content {
+	padding: 10px 16px;
+	border: solid 1px #eee;
+}
+
+/*Tabs v2s*/
+.tab-v2s .nav-tabs {
+    text-align: center;
+    border-bottom: none;
+    padding-bottom: 15px;
+  }
+  .tab-v2s .nav-tabs li{
+    float: none;
+    display: inline-block;
+    zoom: 1;
+  }
+  
+  .tab-v2s .nav-tabs li a {
+    padding: 9px 16px;
+    background: none;
+    border: none;
+    text-transform: uppercase;
+    color: #555;
+     margin-top: 5px;
+     text-shadow: none;
+     font-weight: normal;
+     font-family: "Open Sans", sans-serif;    
+     font-size: 18px;
+     line-height: 27px;
+  }
+  
+  .tab-v2s .nav-tabs li.active a {
+    background: #fff;
+    padding: 7px 15px 9px;
+    border: nonee;
+    border-bottom: solid 2px black;
+    border-top: none !important;
+    border-left: none;
+    border-right: none;
+  }
+  
+  .tab-v2s .tab-content {
+    padding: 10px 16px;
+    border: none;
+  }
+ .tav-v2s .nav-tabs {
+    border-bottom:none;
+}
+
+
