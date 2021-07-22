@@ -15,7 +15,6 @@
     "bootstrap-icons": "^1.5.0",
     "bootstrap-react": "^0.5.0-alpha.14",
     "express": "^4.17.1",
-    "jest": "^27.0.6",
     "jquery": "^3.6.0",
     "mdb-ui-kit": "^3.8.0",
     "popper.js": "^1.16.1",
@@ -28,9 +27,10 @@
     "serve": "^12.0.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "jest",
+    "start": "webpack serve",
+    "build": "webpack",
+    "dev": "webpack serve",
+    "test": "react-scripts test",
     "eject": "react-scripts eject",
     "netlify:deploy": "netlify deploy --dir=./build -p -m \"$(git log -1 --pretty=%B)\""
   },
@@ -61,10 +61,18 @@
     "@babel/preset-react": "^7.14.5",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "jest": "^27.0.6",
     "jest-dom": "^4.0.0",
     "netlify-cli": "^4.4.2",
     "react-test-render": "^1.1.2",
-    "web-vitals": "^2.0.1"
+    "style-loader": "^3.2.1",
+    "web-vitals": "^2.0.1",
+    "webpack": "^5.45.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
   },
   "author": "Alaina Ayres",
   "license": "UNLICENSED"
