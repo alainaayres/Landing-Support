@@ -27,16 +27,10 @@
     "serve": "^12.0.0"
   },
   "scripts": {
-<<<<<<< HEAD
     "start": "webpack serve",
     "build": "webpack",
     "dev": "webpack serve",
     "test": "react-scripts test",
-=======
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "jest",
->>>>>>> 72fe1bacfec36ddef23f5564eced9214793d8081
     "eject": "react-scripts eject",
     "netlify:deploy": "netlify deploy --dir=./build -p -m \"$(git log -1 --pretty=%B)\""
   },
@@ -61,7 +55,6 @@
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
   "devDependencies": {
-<<<<<<< HEAD
     "@babel/cli": "^7.14.8",
     "@babel/core": "^7.14.8",
     "@babel/preset-env": "^7.14.8",
@@ -74,17 +67,13 @@
     "jest": "^27.0.6",
     "jest-dom": "^4.0.0",
     "netlify-cli": "^4.4.2",
+    "parcel-bundler": "^1.12.5",
     "react-test-render": "^1.1.2",
     "style-loader": "^3.2.1",
     "web-vitals": "^2.0.1",
     "webpack": "^5.45.1",
     "webpack-cli": "^4.7.2",
     "webpack-dev-server": "^3.11.2"
-=======
-    "jest": "^27.0.6",
-    "netlify-cli": "^4.4.2",
-    "web-vitals": "^2.1.0"
->>>>>>> 72fe1bacfec36ddef23f5564eced9214793d8081
   },
   "author": "Alaina Ayres",
   "license": "UNLICENSED"
