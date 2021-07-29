@@ -9,17 +9,17 @@ import { useMediaQuery } from 'react-responsive';
 
 const App = () => {
 
-  const isPortrait = useMediaQuery({ query: '(orientation: portrait)' })
-  const isRetina = useMediaQuery({ query: '(min-resolution: 2dppx)' })
+  //const isPortrait = useMediaQuery({ query: '(orientation: portrait)' })
+  //const isRetina = useMediaQuery({ query: '(min-resolution: 2dppx)' })
 
     return (
       <div >
-       <Header />
-       <HeadPhoto />
-       <Icons />
-       <Contacts />
-       <Demo />
-       <Footer />
+        <Header />
+        <HeadPhoto />
+        <Icons />
+        <Contacts />
+        <Demo />
+        <Footer />
       </div>
     )
 }

@@ -1,5 +1,4 @@
 import React from 'react';
-import * as mdb from 'mdb-ui-kit'; // lib
 import 'bootstrap/dist/css/bootstrap.css';
 import img1 from '../../assets/img/sliders/slider-img5-1.jpg';
 import img2 from '../../assets/img/sliders/slider-img1-2.jpg';
