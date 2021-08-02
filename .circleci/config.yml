@@ -34,7 +34,7 @@ jobs:
           
       - run: npm build
 
-      # - run: npx netlify:deploy
+      - run: npm netlify:deploy
 
 workflows:
   # Below is the definition of your workflow.
