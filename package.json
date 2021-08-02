@@ -33,9 +33,10 @@
   },
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "npm run build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "netlify:deploy": "netlify deploy --dir=./build -p -m \"$(git log -1 --pretty=%B)\""
   },
   "reporters": [
     "default",
@@ -81,7 +82,7 @@
     "gulp-babel": "^7.0.1",
     "gulp-resolve-dependencies": "^4.1.0",
     "html-webpack-plugin": "^5.3.2",
-    "netlify-cli": "^4.4.4",
+    "netlify-cli": "^4.4.2",
     "parcel-bundler": "^1.12.5",
     "react-test-render": "^1.1.2",
     "react-test-renderer": "^17.0.2",
