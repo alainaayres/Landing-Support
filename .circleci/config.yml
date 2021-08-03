@@ -36,16 +36,17 @@ jobs:
           command: npm test
           
       - run: npm build
-
-deploy:
-  stage: deploy
-  script:
-    - npm i -g netlify-cli
-    - npx netlify deploy --site $865fa75e-6507-4782-8165-4544f15340df --auth $QMCmS8_-b2I3ozFw0dq3y6u_WLFktYdUtlK69zf5A6w --prod
-  dependencies:
-    - build
-  only:
-    - master
+    
+  deploy:
+      stage: deploy
+      script:
+        - npm i -g netlify-cli
+        - npx netlify deploy --site $865fa75e-6507-4782-8165-4544f15340df --auth $QMCmS8_-b2I3ozFw0dq3y6u_WLFktYdUtlK69zf5A6w --prod
+      dependencies:
+        - build
+      only:
+        - master
+        
 
 workflows:
   # Below is the definition of your workflow.
