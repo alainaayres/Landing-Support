@@ -33,7 +33,7 @@ jobs:
 
       - run:
           name: install netlify-cli
-          command: npm install -g netlify-cli
+          command: npm install --save netlify-cli
 
       - run:
           name: Run tests
