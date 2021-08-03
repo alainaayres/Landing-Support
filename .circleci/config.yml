@@ -37,7 +37,7 @@ jobs:
           
       - run: npm build
 
-      - run: npx netlify deploy
+      - run: npx netlify deploy --dir=./build -p -m \"$(git log -1 --pretty=%B)
 
 workflows:
   # Below is the definition of your workflow.
