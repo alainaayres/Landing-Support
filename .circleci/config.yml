@@ -19,6 +19,9 @@ jobs:
       - image: cimg/node:15.1
     # Then run your tests!
     # CircleCI will report the results back to your VCS provider.
+
+    working_directory: ~/Landing-Support
+  
     steps:
       # Checkout the code as the first step.
       - checkout
@@ -34,7 +37,7 @@ jobs:
           
       - run: npm build
 
-      - run: npx netlify deploy
+      - run: netlify deploy
 
 workflows:
   # Below is the definition of your workflow.
