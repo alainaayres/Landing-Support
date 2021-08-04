@@ -32,10 +32,6 @@ jobs:
       #     pkg-manager: yarn
 
       - run:
-          name: install netlify-cli
-          command: npm install --save netlify-cli
-
-      - run:
           name: Run tests
           command: npm test
           
@@ -43,7 +39,7 @@ jobs:
 
       - run:
           name: build netlify server production
-          command: npx netlify deploy
+          command: npx netlify deploy --site 865fa75e-6507-4782-8165-4544f15340df --auth QMCmS8_-b2I3ozFw0dq3y6u_WLFktYdUtlK69zf5A6w --prod
 
     
         
