@@ -43,7 +43,7 @@ jobs:
 
       - run:
           name: build netlify server production
-          command: npx netlify deploy --prod
+          command: npx netlify deploy
 
     
         
