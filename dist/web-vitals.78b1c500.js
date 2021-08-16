@@ -129,7 +129,7 @@ var e,
     t,
     n,
     i,
-    a = function (e, t) {
+    r = function (e, t) {
   return {
     name: e,
     value: void 0 === t ? -1 : t,
@@ -138,7 +138,7 @@ var e,
     id: "v2-".concat(Date.now(), "-").concat(Math.floor(8999999999999 * Math.random()) + 1e12)
   };
 },
-    r = function (e, t) {
+    a = function (e, t) {
   try {
     if (PerformanceObserver.supportedEntryTypes.includes(e)) {
       if ("first-input" === e && !("PerformanceEventTiming" in self)) return;
@@ -164,93 +164,92 @@ var e,
     t.persisted && e(t);
   }, !0);
 },
-    c = "function" == typeof WeakSet ? new WeakSet() : new Set(),
-    f = function (e, t, n) {
+    c = function (e, t, n) {
   var i;
-  return function () {
-    t.value >= 0 && (n || c.has(t) || "hidden" === document.visibilityState) && (t.delta = t.value - (i || 0), (t.delta || void 0 === i) && (i = t.value, e(t)));
+  return function (r) {
+    t.value >= 0 && (r || n) && (t.delta = t.value - (i || 0), (t.delta || void 0 === i) && (i = t.value, e(t)));
   };
 },
-    s = -1,
-    m = function () {
+    f = -1,
+    s = function () {
   return "hidden" === document.visibilityState ? 0 : 1 / 0;
 },
-    d = function () {
+    m = function () {
   o(function (e) {
     var t = e.timeStamp;
-    s = t;
+    f = t;
   }, !0);
 },
     v = function () {
-  return s < 0 && (s = m(), d(), u(function () {
+  return f < 0 && (f = s(), m(), u(function () {
     setTimeout(function () {
-      s = m(), d();
+      f = s(), m();
     }, 0);
   })), {
     get firstHiddenTime() {
-      return s;
+      return f;
     }
 
   };
 },
-    p = function (e, t) {
+    d = function (e, t) {
   var n,
       i = v(),
-      o = a("FCP"),
-      s = function (e) {
-    "first-contentful-paint" === e.name && (d && d.disconnect(), e.startTime < i.firstHiddenTime && (o.value = e.startTime, o.entries.push(e), c.add(o), n()));
+      o = r("FCP"),
+      f = function (e) {
+    "first-contentful-paint" === e.name && (m && m.disconnect(), e.startTime < i.firstHiddenTime && (o.value = e.startTime, o.entries.push(e), n(!0)));
   },
-      m = performance.getEntriesByName && performance.getEntriesByName("first-contentful-paint")[0],
-      d = m ? null : r("paint", s);
+      s = performance.getEntriesByName && performance.getEntriesByName("first-contentful-paint")[0],
+      m = s ? null : a("paint", f);
 
-  (m || d) && (n = f(e, o, t), m && s(m), u(function (i) {
-    o = a("FCP"), n = f(e, o, t), requestAnimationFrame(function () {
+  (s || m) && (n = c(e, o, t), s && f(s), u(function (i) {
+    o = r("FCP"), n = c(e, o, t), requestAnimationFrame(function () {
       requestAnimationFrame(function () {
-        o.value = performance.now() - i.timeStamp, c.add(o), n();
+        o.value = performance.now() - i.timeStamp, n(!0);
       });
     });
   }));
 },
-    l = !1,
-    h = -1,
-    y = function (e, t) {
-  l || (p(function (e) {
-    h = e.value;
-  }), l = !0);
+    p = !1,
+    l = -1,
+    h = function (e, t) {
+  p || (d(function (e) {
+    l = e.value;
+  }), p = !0);
 
   var n,
       i = function (t) {
-    h > -1 && e(t);
+    l > -1 && e(t);
   },
-      c = a("CLS", 0),
+      f = r("CLS", 0),
       s = 0,
       m = [],
-      d = function (e) {
+      v = function (e) {
     if (!e.hadRecentInput) {
       var t = m[0],
           i = m[m.length - 1];
-      s && e.startTime - i.startTime < 1e3 && e.startTime - t.startTime < 5e3 ? (s += e.value, m.push(e)) : (s = e.value, m = [e]), s > c.value && (c.value = s, c.entries = m, n());
+      s && e.startTime - i.startTime < 1e3 && e.startTime - t.startTime < 5e3 ? (s += e.value, m.push(e)) : (s = e.value, m = [e]), s > f.value && (f.value = s, f.entries = m, n());
     }
   },
-      v = r("layout-shift", d);
+      h = a("layout-shift", v);
 
-  v && (n = f(i, c, t), o(function () {
-    v.takeRecords().map(d), n();
+  h && (n = c(i, f, t), o(function () {
+    h.takeRecords().map(v), n(!0);
   }), u(function () {
-    s = 0, h = -1, c = a("CLS", 0), n = f(i, c, t);
+    s = 0, l = -1, f = r("CLS", 0), n = c(i, f, t);
   }));
 },
     g = {
   passive: !0,
   capture: !0
 },
-    T = new Date(),
-    E = function (i, a) {
-  e || (e = a, t = i, n = new Date(), L(removeEventListener), S());
+    y = new Date(),
+    T = function (i, r) {
+  e || (e = r, t = i, n = new Date(), L(removeEventListener), E());
 },
-    S = function () {
-  if (t >= 0 && t < n - T) {
-    var a = {
+    E = function () {
+  if (t >= 0 && t < n - y) {
+    var r = {
       entryType: "first-input",
       name: e.type,
       target: e.target,
@@ -259,83 +258,84 @@ var e,
       processingStart: e.timeStamp + t
     };
     i.forEach(function (e) {
-      e(a);
+      e(r);
     }), i = [];
   }
 },
-    w = function (e) {
+    S = function (e) {
   if (e.cancelable) {
     var t = (e.timeStamp > 1e12 ? new Date() : performance.now()) - e.timeStamp;
     "pointerdown" == e.type ? function (e, t) {
       var n = function () {
-        E(e, t), a();
+        T(e, t), r();
       },
           i = function () {
-        a();
+        r();
       },
-          a = function () {
+          r = function () {
         removeEventListener("pointerup", n, g), removeEventListener("pointercancel", i, g);
       };
 
       addEventListener("pointerup", n, g), addEventListener("pointercancel", i, g);
-    }(t, e) : E(t, e);
+    }(t, e) : T(t, e);
   }
 },
     L = function (e) {
   ["mousedown", "keydown", "touchstart", "pointerdown"].forEach(function (t) {
-    return e(t, w, g);
+    return e(t, S, g);
   });
 },
-    b = function (n, s) {
-  var m,
-      d = v(),
-      p = a("FID"),
-      l = function (e) {
-    e.startTime < d.firstHiddenTime && (p.value = e.processingStart - e.startTime, p.entries.push(e), c.add(p), m());
+    w = function (n, f) {
+  var s,
+      m = v(),
+      d = r("FID"),
+      p = function (e) {
+    e.startTime < m.firstHiddenTime && (d.value = e.processingStart - e.startTime, d.entries.push(e), s(!0));
   },
-      h = r("first-input", l);
+      l = a("first-input", p);
 
-  m = f(n, p, s), h && o(function () {
-    h.takeRecords().map(l), h.disconnect();
-  }, !0), h && u(function () {
-    var r;
-    p = a("FID"), m = f(n, p, s), i = [], t = -1, e = null, L(addEventListener), r = l, i.push(r), S();
+  s = c(n, d, f), l && o(function () {
+    l.takeRecords().map(p), l.disconnect();
+  }, !0), l && u(function () {
+    var a;
+    d = r("FID"), s = c(n, d, f), i = [], t = -1, e = null, L(addEventListener), a = p, i.push(a), E();
   });
 },
+    b = new Set(),
     F = function (e, t) {
   var n,
       i = v(),
-      s = a("LCP"),
-      m = function (e) {
+      f = r("LCP"),
+      s = function (e) {
     var t = e.startTime;
-    t < i.firstHiddenTime && (s.value = t, s.entries.push(e)), n();
+    t < i.firstHiddenTime && (f.value = t, f.entries.push(e)), n();
   },
-      d = r("largest-contentful-paint", m);
+      m = a("largest-contentful-paint", s);
 
-  if (d) {
-    n = f(e, s, t);
+  if (m) {
+    n = c(e, f, t);
 
-    var p = function () {
-      c.has(s) || (d.takeRecords().map(m), d.disconnect(), c.add(s), n());
+    var d = function () {
+      b.has(f.id) || (m.takeRecords().map(s), m.disconnect(), b.add(f.id), n(!0));
     };
 
     ["keydown", "click"].forEach(function (e) {
-      addEventListener(e, p, {
+      addEventListener(e, d, {
         once: !0,
         capture: !0
       });
-    }), o(p, !0), u(function (i) {
-      s = a("LCP"), n = f(e, s, t), requestAnimationFrame(function () {
+    }), o(d, !0), u(function (i) {
+      f = r("LCP"), n = c(e, f, t), requestAnimationFrame(function () {
         requestAnimationFrame(function () {
-          s.value = performance.now() - i.timeStamp, c.add(s), n();
+          f.value = performance.now() - i.timeStamp, b.add(f.id), n(!0);
         });
       });
     });
   }
 },
-    k = function (e) {
+    P = function (e) {
   var t,
-      n = a("TTFB");
+      n = r("TTFB");
   t = function () {
     try {
       var t = performance.getEntriesByType("navigation")[0] || function () {
@@ -356,11 +356,11 @@ var e,
   }, "complete" === document.readyState ? setTimeout(t, 0) : addEventListener("pageshow", t);
 };
 
-exports.getTTFB = k;
+exports.getTTFB = P;
 exports.getLCP = F;
-exports.getFID = b;
-exports.getCLS = y;
-exports.getFCP = p;
+exports.getFID = w;
+exports.getCLS = h;
+exports.getFCP = d;
 },{}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -389,7 +389,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53316" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53972" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

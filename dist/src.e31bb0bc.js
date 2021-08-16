@@ -23123,18 +23123,18 @@ if ("development" !== "production") {
 
                   if (renderState.tail === null && renderState.tailMode === 'hidden' && !renderedTail.alternate && !getIsHydrating() // We don't cut it if we're hydrating.
                   ) {
-                      // We need to delete the row we just rendered.
-                      // Reset the effect list to what it was before we rendered this
-                      // child. The nested children have already appended themselves.
-                      var lastEffect = workInProgress.lastEffect = renderState.lastEffect; // Remove any effects that were appended after this point.
+                    // We need to delete the row we just rendered.
+                    // Reset the effect list to what it was before we rendered this
+                    // child. The nested children have already appended themselves.
+                    var lastEffect = workInProgress.lastEffect = renderState.lastEffect; // Remove any effects that were appended after this point.
 
-                      if (lastEffect !== null) {
-                        lastEffect.nextEffect = null;
-                      } // We're done.
+                    if (lastEffect !== null) {
+                      lastEffect.nextEffect = null;
+                    } // We're done.
 
 
-                      return null;
-                    }
+                    return null;
+                  }
                 } else if ( // The time it took to render last row is greater than the remaining
                 // time we have to render. So rendering one more row would likely
                 // exceed it.
@@ -29726,7 +29726,7 @@ module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
 },{"./../video/shutterstock_hands.png":[["shutterstock_hands.96278911.png","assets/video/shutterstock_hands.png"],"assets/video/shutterstock_hands.png"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/prism_logo.png":[function(require,module,exports) {
 module.exports = "/prism_logo.b3bb9133.png";
-},{}],"../node_modules/prop-types/node_modules/react-is/cjs/react-is.development.js":[function(require,module,exports) {
+},{}],"../node_modules/react-is/cjs/react-is.development.js":[function(require,module,exports) {
 /** @license React v16.13.1
  * react-is.development.js
  *
@@ -29916,7 +29916,7 @@ if ("development" !== "production") {
     exports.typeOf = typeOf;
   })();
 }
-},{}],"../node_modules/prop-types/node_modules/react-is/index.js":[function(require,module,exports) {
+},{}],"../node_modules/react-is/index.js":[function(require,module,exports) {
 'use strict';
 
 if ("development" === 'production') {
@@ -29924,7 +29924,7 @@ if ("development" === 'production') {
 } else {
   module.exports = require('./cjs/react-is.development.js');
 }
-},{"./cjs/react-is.development.js":"../node_modules/prop-types/node_modules/react-is/cjs/react-is.development.js"}],"../node_modules/prop-types/lib/ReactPropTypesSecret.js":[function(require,module,exports) {
+},{"./cjs/react-is.development.js":"../node_modules/react-is/cjs/react-is.development.js"}],"../node_modules/prop-types/lib/ReactPropTypesSecret.js":[function(require,module,exports) {
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -30678,7 +30678,7 @@ module.exports = function (isValidElement, throwOnDirectAccess) {
   ReactPropTypes.PropTypes = ReactPropTypes;
   return ReactPropTypes;
 };
-},{"react-is":"../node_modules/prop-types/node_modules/react-is/index.js","object-assign":"../node_modules/object-assign/index.js","./lib/ReactPropTypesSecret":"../node_modules/prop-types/lib/ReactPropTypesSecret.js","./checkPropTypes":"../node_modules/prop-types/checkPropTypes.js"}],"../node_modules/prop-types/index.js":[function(require,module,exports) {
+},{"react-is":"../node_modules/react-is/index.js","object-assign":"../node_modules/object-assign/index.js","./lib/ReactPropTypesSecret":"../node_modules/prop-types/lib/ReactPropTypesSecret.js","./checkPropTypes":"../node_modules/prop-types/checkPropTypes.js"}],"../node_modules/prop-types/index.js":[function(require,module,exports) {
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -30697,7 +30697,7 @@ if ("development" !== 'production') {
   // http://fb.me/prop-types-in-prod
   module.exports = require('./factoryWithThrowingShims')();
 }
-},{"react-is":"../node_modules/prop-types/node_modules/react-is/index.js","./factoryWithTypeCheckers":"../node_modules/prop-types/factoryWithTypeCheckers.js"}],"../node_modules/react-side-effect/lib/index.js":[function(require,module,exports) {
+},{"react-is":"../node_modules/react-is/index.js","./factoryWithTypeCheckers":"../node_modules/prop-types/factoryWithTypeCheckers.js"}],"../node_modules/react-side-effect/lib/index.js":[function(require,module,exports) {
 'use strict';
 
 function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
@@ -32097,8 +32097,9 @@ class Header extends _react.Component {
     }, "Products"), /*#__PURE__*/_react.default.createElement("ul", {
       className: "first dropdown-menu",
       style: {
-        width: '1050px',
-        left: '8%'
+        width: '70%',
+        left: '8%',
+        right: '8%'
       }
     }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("div", {
       className: "mega-menu-content disable-icons"
@@ -42280,7 +42281,7 @@ function Icons() {
     className: "circle",
     icon: _freeSolidSvgIcons.faCircle,
     style: {
-      fontSize: '3.5rem',
+      fontSize: '4.5rem',
       color: '#158cc3'
     }
   }), /*#__PURE__*/_react.default.createElement(_reactFontawesome.FontAwesomeIcon, {
@@ -42290,7 +42291,7 @@ function Icons() {
       zIndex: 99,
       fontSize: '2rem',
       color: '#fff',
-      marginLeft: 8
+      marginLeft: 12
     }
   })), /*#__PURE__*/_react.default.createElement("span", {
     style: {
@@ -42314,7 +42315,7 @@ function Icons() {
   }, /*#__PURE__*/_react.default.createElement(_reactFontawesome.FontAwesomeIcon, {
     icon: _freeSolidSvgIcons.faCircle,
     style: {
-      fontSize: '3.5rem',
+      fontSize: '4.5rem',
       color: '#158cc3'
     }
   }), /*#__PURE__*/_react.default.createElement(_reactFontawesome.FontAwesomeIcon, {
@@ -42323,7 +42324,7 @@ function Icons() {
       zIndex: 99,
       fontSize: '2rem',
       color: 'white',
-      marginLeft: 6.5
+      marginLeft: 11.5
     }
   })), /*#__PURE__*/_react.default.createElement("span", {
     style: {
@@ -42347,7 +42348,7 @@ function Icons() {
   }, /*#__PURE__*/_react.default.createElement(_reactFontawesome.FontAwesomeIcon, {
     icon: _freeSolidSvgIcons.faCircle,
     style: {
-      fontSize: '3.5rem',
+      fontSize: '4.5rem',
       color: '#158cc3'
     }
   }), /*#__PURE__*/_react.default.createElement(_reactFontawesome.FontAwesomeIcon, {
@@ -42356,7 +42357,7 @@ function Icons() {
       zIndex: 99,
       fontSize: '2rem',
       color: 'white',
-      marginLeft: 10
+      marginLeft: 14
     }
   })), /*#__PURE__*/_react.default.createElement("span", {
     style: {
@@ -42380,7 +42381,7 @@ function Icons() {
   }, /*#__PURE__*/_react.default.createElement(_reactFontawesome.FontAwesomeIcon, {
     icon: _freeSolidSvgIcons.faCircle,
     style: {
-      fontSize: '3.5rem',
+      fontSize: '4.5rem',
       color: '#158cc3'
     }
   }), /*#__PURE__*/_react.default.createElement(_reactFontawesome.FontAwesomeIcon, {
@@ -42389,7 +42390,7 @@ function Icons() {
       zIndex: 99,
       fontSize: '2rem',
       color: 'white',
-      marginLeft: 8
+      marginLeft: 12
     }
   })), /*#__PURE__*/_react.default.createElement("span", {
     style: {
@@ -42407,7 +42408,7 @@ function Icons() {
   }, /*#__PURE__*/_react.default.createElement(_reactFontawesome.FontAwesomeIcon, {
     icon: _freeSolidSvgIcons.faCircle,
     style: {
-      fontSize: '3.5rem',
+      fontSize: '4.5rem',
       color: '#158cc3'
     }
   }), /*#__PURE__*/_react.default.createElement(_reactFontawesome.FontAwesomeIcon, {
@@ -42416,7 +42417,7 @@ function Icons() {
       zIndex: 99,
       fontSize: '2rem',
       color: 'white',
-      marginLeft: 14
+      marginLeft: 19.5
     }
   })), /*#__PURE__*/_react.default.createElement("span", {
     style: {
@@ -43031,17 +43032,17 @@ function contains(parent, child) {
     return true;
   } // then fallback to custom implementation with Shadow DOM support
   else if (rootNode && (0, _instanceOf.isShadowRoot)(rootNode)) {
-      var next = child;
+    var next = child;
 
-      do {
-        if (next && parent.isSameNode(next)) {
-          return true;
-        } // $FlowFixMe[prop-missing]: need a better way to handle this...
+    do {
+      if (next && parent.isSameNode(next)) {
+        return true;
+      } // $FlowFixMe[prop-missing]: need a better way to handle this...
 
 
-        next = next.parentNode || next.host;
-      } while (next);
-    } // Give up, the result is false
+      next = next.parentNode || next.host;
+    } while (next);
+  } // Give up, the result is false
 
 
   return false;
@@ -52044,7 +52045,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53316" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53972" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
