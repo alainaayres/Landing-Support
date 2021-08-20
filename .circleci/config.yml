@@ -38,4 +38,4 @@ jobs:
 
       - run: npm build
 
-      - run: npx netlify deploy --site $865fa75e-6507-4782-8165-4544f15340df --auth $rZxgadbJwJivrmll5v7OKOgWcEIt0mtDqL2KI6wxfQI --prod
+      - run: npx netlify deploy --site 865fa75e-6507-4782-8165-4544f15340df --auth rZxgadbJwJivrmll5v7OKOgWcEIt0mtDqL2KI6wxfQI --prod
