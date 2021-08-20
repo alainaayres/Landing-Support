@@ -32059,20 +32059,15 @@ class Header extends _react.Component {
       className: "container"
     }, /*#__PURE__*/_react.default.createElement("div", {
       className: "menu-container"
-    }, /*#__PURE__*/_react.default.createElement("button", {
-      type: "button",
-      className: "navbar-toggle",
-      "data-toggle": "collapse",
-      "data-target": ".navbar-responsive-collapse"
-    }, /*#__PURE__*/_react.default.createElement("span", {
-      className: "sr-only"
-    }, "Toggle navigation"), /*#__PURE__*/_react.default.createElement("span", {
-      className: "icon-bar"
-    }), /*#__PURE__*/_react.default.createElement("span", {
-      className: "icon-bar"
-    }), /*#__PURE__*/_react.default.createElement("span", {
-      className: "icon-bar"
-    }))), /*#__PURE__*/_react.default.createElement("div", {
+    }, /*#__PURE__*/_react.default.createElement("a", {
+      href: "#",
+      class: "global-nav--wac__menu-toggle",
+      "data-event": "clicked",
+      "data-uuid": "3642d018-f6-8",
+      "data-event-component": "linkButton",
+      "data-event-container": "globalNavWac",
+      "data-schema-version": "1"
+    }, "Toggle menu")), /*#__PURE__*/_react.default.createElement("div", {
       className: "collapse navbar-collapse navbar-responsive-collapse"
     }, /*#__PURE__*/_react.default.createElement("div", {
       className: "menu-container"
@@ -52045,7 +52040,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53972" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61210" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

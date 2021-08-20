@@ -114,12 +114,7 @@ export class Header extends Component {
               <div className="container">
                 {/* Brand and toggle get grouped for better mobile display */}
                 <div className="menu-container">
-                  <button type="button" className="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
-                    <span className="sr-only">Toggle navigation</span>
-                    <span className="icon-bar" />
-                    <span className="icon-bar" />
-                    <span className="icon-bar" />
-                  </button>
+                  <a href="#" class="global-nav--wac__menu-toggle" data-event="clicked" data-uuid="3642d018-f6-8" data-event-component="linkButton" data-event-container="globalNavWac" data-schema-version="1">Toggle menu</a>
                 </div>
 
                 {/* Collect the nav links, forms, and other content for toggling */}
