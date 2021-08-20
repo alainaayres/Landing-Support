@@ -19,7 +19,7 @@ function HeadPhoto() {
        <link rel="stylesheet" href="../assets/css/custom.css" />
        <link rel="stylesheet" href="../assets/css/app.css" />
            <img src={gradient} className='img-fluid' alt="Responsive image" style={{ maxHeight:'300px', width:'100%', objectFit: 'cover' }} />
-            <div className='centered container-fluid' > 
+            <div className='centered container' > 
                <h1>Browse our resources</h1>
                <h3>Take advantage of all the resources that Prism has to offer to maximize <br /> the value of your Prism Software solutions</h3>
             </div>
