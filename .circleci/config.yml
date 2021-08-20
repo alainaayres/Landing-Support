@@ -38,4 +38,4 @@ jobs:
 
       - run: npm build
 
-      - run: npx netlify deploy
+      - run: npx netlify deploy --site

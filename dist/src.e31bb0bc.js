@@ -32286,7 +32286,7 @@ function HeadPhoto() {
       objectFit: 'cover'
     }
   }), /*#__PURE__*/_react.default.createElement("div", {
-    className: "centered"
+    className: "centered container-fluid"
   }, /*#__PURE__*/_react.default.createElement("h1", null, "Browse our resources"), /*#__PURE__*/_react.default.createElement("h3", null, "Take advantage of all the resources that Prism has to offer to maximize ", /*#__PURE__*/_react.default.createElement("br", null), " the value of your Prism Software solutions"))));
 }
 

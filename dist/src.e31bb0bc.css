@@ -46840,7 +46840,6 @@ textarea.form-control-lg {
     font-weight: 500;
     color: rgb(33, 33, 33);
     line-height: 13px;
-    line-height: 50px;
 }
 
 .header img {
@@ -46963,18 +46962,33 @@ textarea.form-control-lg {
   }
 
   .centered h1 {
+    position: absolute;
+    margin-top: 70px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: -40px;
     text-align: center;
     font-size: 30px;
     color: rgb(33, 33, 33);
     font-weight: 800;
-    margin-bottom: 14px;
+    width: 200%;
+    margin-bottom: -20px;
 }
 
 .centered h3 {
+    position: absolute;
+    margin-top: 30px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 170%;
     text-align: center;
+    justify-content: center;
     font-size: 15px;
     font-weight: 500;
     color: rgb(33, 33, 33);
+    line-height: 30px;
 }
 
 .header img {
@@ -47107,7 +47121,7 @@ textarea.form-control-lg {
     font-size: 21px;
     font-weight: 500;
     color: rgb(33, 33, 33);
-    line-height: 40px;
+    line-height: 60px;
 }
 
 .header img {
