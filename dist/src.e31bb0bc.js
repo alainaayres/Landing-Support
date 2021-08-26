@@ -32147,7 +32147,40 @@ class Header extends _react.Component {
       className: "collapse navbar-collapse navbar-responsive-collapse"
     }, /*#__PURE__*/_react.default.createElement("div", {
       className: "menu-container"
+    }, /*#__PURE__*/_react.default.createElement("nav", {
+      id: "navbar",
+      className: "navigation",
+      role: "navigation"
+    }, /*#__PURE__*/_react.default.createElement("input", {
+      id: "toggle1",
+      type: "checkbox"
+    }), /*#__PURE__*/_react.default.createElement("label", {
+      className: "hamburger1",
+      for: "toggle1"
     }, /*#__PURE__*/_react.default.createElement("div", {
+      className: "top"
+    }), /*#__PURE__*/_react.default.createElement("div", {
+      className: "meat"
+    }), /*#__PURE__*/_react.default.createElement("div", {
+      className: "bottom"
+    })), /*#__PURE__*/_react.default.createElement("nav", {
+      className: "menu1"
+    }, /*#__PURE__*/_react.default.createElement("a", {
+      className: "link1",
+      href: ""
+    }, "Our Models"), /*#__PURE__*/_react.default.createElement("a", {
+      className: "link1",
+      href: ""
+    }, "Specialties"), /*#__PURE__*/_react.default.createElement("a", {
+      className: "link1",
+      href: ""
+    }, "About"), /*#__PURE__*/_react.default.createElement("a", {
+      className: "link1",
+      href: ""
+    }, "Blog"), /*#__PURE__*/_react.default.createElement("a", {
+      className: "lin1 kbutton-nav",
+      href: ""
+    }, "Contact"))), /*#__PURE__*/_react.default.createElement("div", {
       className: "navbar-brand"
     }, /*#__PURE__*/_react.default.createElement("a", {
       href: "https://www.prismsoftware.com/"

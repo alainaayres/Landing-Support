@@ -113,13 +113,31 @@ export class Header extends Component {
           <div>
             {/* Navbar */}
             <nav className="navbar mega-menu" role="navigation" >
-              <div className="container">
+              <div className="container">  
                 {/* Brand and toggle get grouped for better mobile display */}
+            
                 {/* Collect the nav links, forms, and other content for toggling */}
                 <div className="collapse navbar-collapse navbar-responsive-collapse">
                 {/* Navbar Brand */}
                   <div className="menu-container">
-
+                      
+                          <nav id="navbar" className="navigation" role="navigation">
+                              <input id="toggle1" type="checkbox" />
+                              <label className="hamburger1" for="toggle1">
+                              <div className="top"></div>
+                              <div className="meat"></div>
+                              <div className="bottom"></div>
+                              </label>
+                          
+                              <nav className="menu1">
+                              <a className="link1" href="">Our Models</a>
+                              <a className="link1" href="">Specialties</a>
+                              <a className="link1" href="">About</a>
+                              <a className="link1" href="">Blog</a>
+                              <a className="lin1 kbutton-nav" href="">Contact</a>
+                              </nav>
+                          </nav>
+               
 
                       <div className="navbar-brand">
                         <a href="https://www.prismsoftware.com/">
