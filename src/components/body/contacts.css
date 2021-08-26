@@ -12,7 +12,6 @@
     width: 400px;
     padding: 20px;
     height: 200px;
-    box-shadow: 0 0 10px  rgba(160, 159, 159, 0.2);
     justify-content: center;
     border: none;
     border-radius: 25px;
@@ -27,7 +26,7 @@
 }
 
 .row .col .card p {
-    font-size: 12px;
+    font-size: 16px;
     display: flex;
     justify-content: center;
 }
@@ -44,7 +43,6 @@
         width: 200px;
         padding: 5px;
         height: 110px;
-        box-shadow: 0 0 10px  rgba(160, 159, 159, 0.2);
         justify-content: center;
         border: none;
         border-radius: 25px;
@@ -60,7 +58,7 @@
     }
     
     .row .col .card p {
-        font-size: 8px;
+        font-size: 10px;
         display: flex;
         justify-content: center;
     }
@@ -79,7 +77,6 @@
         width: 240px;
         padding: 8px;
         height: 130px;
-        box-shadow: 0 0 10px  rgba(160, 159, 159, 0.2);
         justify-content: center;
         border: none;
         border-radius: 25px;
@@ -114,7 +111,6 @@
         width: 275px;
         padding: 8px;
         height: 150px;
-        box-shadow: 0 0 10px  rgba(160, 159, 159, 0.2);
         justify-content: center;
         border: none;
         border-radius: 25px;
@@ -130,7 +126,7 @@
     }
     
     .row .col .card p {
-        font-size: 10px;
+        font-size: 12px;
         display: flex;
         justify-content: center;
     }
@@ -149,7 +145,6 @@
         width: 300px;
         padding: 5px;
         height: 160px;
-        box-shadow: 0 0 10px  rgba(160, 159, 159, 0.2);
         justify-content: center;
         border: none;
         border-radius: 25px;
@@ -157,7 +152,7 @@
     
     .row .col .card h3 {
         display: flex;
-        font-size: 18px;
+        font-size: 20px;
         margin-top: 5px;
         margin-bottom: 10px;
         justify-content: center;
@@ -165,7 +160,7 @@
     }
     
     .row .col .card p {
-        font-size: 9px;
+        font-size: 12px;
         display: flex;
         justify-content: center;
     }
@@ -184,7 +179,6 @@
         width: 290px;
         padding: 5px;
         height: 170px;
-        box-shadow: 0 0 10px  rgba(160, 159, 159, 0.2);
         justify-content: center;
         border: none;
         border-radius: 25px;
@@ -200,7 +194,7 @@
     }
     
     .row .col .card p {
-        font-size: 10px;
+        font-size: 13px;
         display: flex;
         justify-content: center;
     }
@@ -219,7 +213,6 @@
         width: 303px;
         padding: 5px;
         height: 180px;
-        box-shadow: 0 0 10px  rgba(160, 159, 159, 0.2);
         justify-content: center;
         border: none;
         border-radius: 25px;
@@ -235,7 +228,7 @@
     }
     
     .row .col .card p {
-        font-size: 10px;
+        font-size: 12px;
         display: flex;
         justify-content: center;
     }
@@ -254,7 +247,6 @@
         width: 360px;
         padding: 5px;
         height: 180px;
-        box-shadow: 0 0 10px  rgba(160, 159, 159, 0.2);
         justify-content: center;
         border: none;
         border-radius: 25px;
@@ -270,7 +262,7 @@
     }
     
     .row .col .card p {
-        font-size: 10px;
+        font-size: 13px;
         display: flex;
         justify-content: center;
     }
@@ -289,7 +281,6 @@
         width: 380px;
         padding: 5px;
         height: 190px;
-        box-shadow: 0 0 10px  rgba(160, 159, 159, 0.2);
         justify-content: center;
         border: none;
         border-radius: 25px;
@@ -297,7 +288,7 @@
     
     .row .col .card h3 {
         display: flex;
-        font-size: 19px;
+        font-size: 22px;
         margin-top: 5px;
         margin-bottom: 10px;
         justify-content: center;
@@ -305,7 +296,7 @@
     }
     
     .row .col .card p {
-        font-size: 9.5px;
+        font-size: 14px;
         display: flex;
         justify-content: center;
     }

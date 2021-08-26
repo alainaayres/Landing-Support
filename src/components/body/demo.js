@@ -19,7 +19,7 @@ import {Helmet} from 'react-helmet';
 
 function Demo() {
     return (
-        <div style={{ padding: '7vw', display: 'flex', justifyItems: 'center', position: 'relative' }} >
+        <div style={{ padding: '4vw', display: 'flex', justifyItems: 'center', position: 'relative' }} >
             <link rel="stylesheet" href="assets/css/theme-colors/default.css" id="style_color" />
             <link rel="stylesheet" href="assets/css/theme-skins/dark.css"/>
             <link rel="stylesheet" href="assets/css/blocks.css"/>
@@ -41,8 +41,8 @@ function Demo() {
             <div className="gray bg-color-light" id="tab3" style={{ justifyContent: 'center' }} >
             <div className="container content-sm" style={{ justifyContent: 'center' }} >
                 <div className='demo-hold' style={{ justifyContent: 'center' }}>
-                <div className="row" style={{ justifyContent: 'center' }}>
-                    <div className="col-md-6" style={{ padding: '5px' }}>
+                <div className="row" style={{ justifyContent: 'center', padding: '5vw', marginTop: '4vw', marginBottom: '4vw' }}>
+                    <div className="col-md-6" style={{ padding: '15px' }}>
                         <h2 className="title-v2" >Request a Demo</h2>
                         <h4 style={{ textAlign: 'left', position: 'relative' }} >Prism Software can focus on customized solutions based on your organization's needs.</h4>  
 

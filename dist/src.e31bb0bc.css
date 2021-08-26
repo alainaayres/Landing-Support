@@ -12,6 +12,108 @@ code {
     monospace;
 }
 
+a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .p-menu1{
+     height: 100%;
+  }
+  
+  
+  
+  
+  /* Hamburger */
+  .hamburger1 {
+    height: 45px;
+    margin: 10px;
+    display: -ms-grid;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    justify-items: center;
+    z-index: 120;
+  }
+  
+  .hamburger1 div {
+    background-color: rgb(61, 61, 61);
+    position: relative;
+    width: 40px;
+    height: 5px;
+    margin-top: 7px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  #toggle1 {
+    display: none;
+  }
+  
+  #toggle1:checked + .hamburger1 .top {
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    margin-top: 22.5px;
+  }
+  
+  #toggle1:checked + .hamburger1 .meat {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+    margin-top: -5px;
+  }
+  
+  #toggle1:checked + .hamburger1 .bottom {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  
+  #toggle1:checked ~ .menu1 {
+    height: 340px;
+  }
+  
+  
+  /* Menu */
+  .menu1 {
+    width: 100%;
+    background-color: #02173F;
+    margin: 0;
+    display: -ms-grid;
+    display: grid;
+    grid-template-rows: 1fr repeat(4, 0.5fr);
+    grid-row-gap: 25px;
+    padding: 0;
+    list-style: none;
+    clear: both;
+    width: auto;
+    text-align: center;
+    height: 0px;
+    overflow: hidden;
+    transition: height .4s ease;
+    z-index: 120;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  
+  .menu1 a:first-child {
+    margin-top: 40px;
+  }
+  
+  .menu1 a:last-child {
+    margin-bottom: 40px;
+  }
+  
+  .link1 {
+    width: 100%;
+    margin: 0;
+    padding: 10px 0;
+    font: 700 20px 'Oswald', sans-serif;
+  }
+  
+  .link1:hover {
+    background-color: #fff;
+    color: rgb(61, 61, 61);
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
 @charset "UTF-8";/*!
  * Bootstrap v5.0.2 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -46964,8 +47066,8 @@ textarea.form-control-lg {
   .centered h1 {
     position: absolute;
     margin-top: 70px;
-    left: 40%;
-    top: 40%;
+    left: 50%;
+    top: 50%;
     transform: translate(-50%, -50%);
     margin-top: -40px;
     text-align: center;
@@ -47021,6 +47123,7 @@ textarea.form-control-lg {
     font-size: 16px;
     font-weight: 500;
     color: rgb(33, 33, 33);
+    line-height: 32px;
 }
 
 .header img {
@@ -47054,6 +47157,7 @@ textarea.form-control-lg {
     font-size: 18px;
     font-weight: 500;
     color: rgb(33, 33, 33);
+    line-height: 36px;
 }
 
 .header img {
@@ -47087,6 +47191,7 @@ textarea.form-control-lg {
     font-size: 21px;
     font-weight: 500;
     color: rgb(33, 33, 33);
+    line-height: 40px;
 }
 
 .header img {
@@ -47121,6 +47226,7 @@ textarea.form-control-lg {
     font-weight: 500;
     color: rgb(33, 33, 33);
     line-height: 60px;
+    line-height: 40px;
 }
 
 .header img {
@@ -48728,7 +48834,6 @@ url("/bootstrap-icons.ef7ace6b.woff?856008caa5eb66df68595e734e59580d") format("w
     width: 400px;
     padding: 20px;
     height: 200px;
-    box-shadow: 0 0 10px  rgba(160, 159, 159, 0.2);
     justify-content: center;
     border: none;
     border-radius: 25px;
@@ -48743,7 +48848,7 @@ url("/bootstrap-icons.ef7ace6b.woff?856008caa5eb66df68595e734e59580d") format("w
 }
 
 .row .col .card p {
-    font-size: 12px;
+    font-size: 16px;
     display: flex;
     justify-content: center;
 }
@@ -48760,7 +48865,6 @@ url("/bootstrap-icons.ef7ace6b.woff?856008caa5eb66df68595e734e59580d") format("w
         width: 200px;
         padding: 5px;
         height: 110px;
-        box-shadow: 0 0 10px  rgba(160, 159, 159, 0.2);
         justify-content: center;
         border: none;
         border-radius: 25px;
@@ -48776,7 +48880,7 @@ url("/bootstrap-icons.ef7ace6b.woff?856008caa5eb66df68595e734e59580d") format("w
     }
     
     .row .col .card p {
-        font-size: 8px;
+        font-size: 10px;
         display: flex;
         justify-content: center;
     }
@@ -48795,7 +48899,6 @@ url("/bootstrap-icons.ef7ace6b.woff?856008caa5eb66df68595e734e59580d") format("w
         width: 240px;
         padding: 8px;
         height: 130px;
-        box-shadow: 0 0 10px  rgba(160, 159, 159, 0.2);
         justify-content: center;
         border: none;
         border-radius: 25px;
@@ -48830,7 +48933,6 @@ url("/bootstrap-icons.ef7ace6b.woff?856008caa5eb66df68595e734e59580d") format("w
         width: 275px;
         padding: 8px;
         height: 150px;
-        box-shadow: 0 0 10px  rgba(160, 159, 159, 0.2);
         justify-content: center;
         border: none;
         border-radius: 25px;
@@ -48846,7 +48948,7 @@ url("/bootstrap-icons.ef7ace6b.woff?856008caa5eb66df68595e734e59580d") format("w
     }
     
     .row .col .card p {
-        font-size: 10px;
+        font-size: 12px;
         display: flex;
         justify-content: center;
     }
@@ -48865,7 +48967,6 @@ url("/bootstrap-icons.ef7ace6b.woff?856008caa5eb66df68595e734e59580d") format("w
         width: 300px;
         padding: 5px;
         height: 160px;
-        box-shadow: 0 0 10px  rgba(160, 159, 159, 0.2);
         justify-content: center;
         border: none;
         border-radius: 25px;
@@ -48873,7 +48974,7 @@ url("/bootstrap-icons.ef7ace6b.woff?856008caa5eb66df68595e734e59580d") format("w
     
     .row .col .card h3 {
         display: flex;
-        font-size: 18px;
+        font-size: 20px;
         margin-top: 5px;
         margin-bottom: 10px;
         justify-content: center;
@@ -48881,7 +48982,7 @@ url("/bootstrap-icons.ef7ace6b.woff?856008caa5eb66df68595e734e59580d") format("w
     }
     
     .row .col .card p {
-        font-size: 9px;
+        font-size: 12px;
         display: flex;
         justify-content: center;
     }
@@ -48900,7 +49001,6 @@ url("/bootstrap-icons.ef7ace6b.woff?856008caa5eb66df68595e734e59580d") format("w
         width: 290px;
         padding: 5px;
         height: 170px;
-        box-shadow: 0 0 10px  rgba(160, 159, 159, 0.2);
         justify-content: center;
         border: none;
         border-radius: 25px;
@@ -48916,7 +49016,7 @@ url("/bootstrap-icons.ef7ace6b.woff?856008caa5eb66df68595e734e59580d") format("w
     }
     
     .row .col .card p {
-        font-size: 10px;
+        font-size: 13px;
         display: flex;
         justify-content: center;
     }
@@ -48935,7 +49035,6 @@ url("/bootstrap-icons.ef7ace6b.woff?856008caa5eb66df68595e734e59580d") format("w
         width: 303px;
         padding: 5px;
         height: 180px;
-        box-shadow: 0 0 10px  rgba(160, 159, 159, 0.2);
         justify-content: center;
         border: none;
         border-radius: 25px;
@@ -48951,7 +49050,7 @@ url("/bootstrap-icons.ef7ace6b.woff?856008caa5eb66df68595e734e59580d") format("w
     }
     
     .row .col .card p {
-        font-size: 10px;
+        font-size: 12px;
         display: flex;
         justify-content: center;
     }
@@ -48970,7 +49069,6 @@ url("/bootstrap-icons.ef7ace6b.woff?856008caa5eb66df68595e734e59580d") format("w
         width: 360px;
         padding: 5px;
         height: 180px;
-        box-shadow: 0 0 10px  rgba(160, 159, 159, 0.2);
         justify-content: center;
         border: none;
         border-radius: 25px;
@@ -48986,7 +49084,7 @@ url("/bootstrap-icons.ef7ace6b.woff?856008caa5eb66df68595e734e59580d") format("w
     }
     
     .row .col .card p {
-        font-size: 10px;
+        font-size: 13px;
         display: flex;
         justify-content: center;
     }
@@ -49005,7 +49103,6 @@ url("/bootstrap-icons.ef7ace6b.woff?856008caa5eb66df68595e734e59580d") format("w
         width: 380px;
         padding: 5px;
         height: 190px;
-        box-shadow: 0 0 10px  rgba(160, 159, 159, 0.2);
         justify-content: center;
         border: none;
         border-radius: 25px;
@@ -49013,7 +49110,7 @@ url("/bootstrap-icons.ef7ace6b.woff?856008caa5eb66df68595e734e59580d") format("w
     
     .row .col .card h3 {
         display: flex;
-        font-size: 19px;
+        font-size: 22px;
         margin-top: 5px;
         margin-bottom: 10px;
         justify-content: center;
@@ -49021,7 +49118,7 @@ url("/bootstrap-icons.ef7ace6b.woff?856008caa5eb66df68595e734e59580d") format("w
     }
     
     .row .col .card p {
-        font-size: 9.5px;
+        font-size: 14px;
         display: flex;
         justify-content: center;
     }

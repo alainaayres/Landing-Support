@@ -6,6 +6,8 @@ import Demo from './components/body/demo.js';
 import Footer from './components/footer/footer.js';
 import Contacts from './components/body/contacts.js';
 import { useMediaQuery } from 'react-responsive';
+import Hamburger from './components/header/hamburger.js';
+import './components/header/hamburger.css'
 
 const App = () => {
 
@@ -14,12 +16,12 @@ const App = () => {
 
     return (
       <div >
-        <Header />
-        <HeadPhoto />
-        <Icons />
-        <Contacts />
-        <Demo />
-        <Footer />
+          <Header />
+          <HeadPhoto />
+          <Icons />
+          <Contacts />
+          <Demo />
+          <Footer />
       </div>
     )
 }

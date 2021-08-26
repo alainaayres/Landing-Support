@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Hamburger from './hamburger.js'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../assets/plugins/bootstrap/css/bootstrap.min.css'
 import '../../assets/plugins/bootstrap/css/bootstrap.css'
@@ -16,8 +17,9 @@ import '../../assets/css/theme-colors/default.css'
 import '../../assets/css/theme-skins/dark.css'
 import '../../assets/css/blocks.css'
 import '../../assets/css/custom.css'
+import './hamburger.css';
 import logo from '../prism_logo.png'
-import {Helmet} from 'react-helmet'; 
+import {Helmet} from 'react-helmet';
 
 /*breadcrumb v3 max height265
 exclude technical knowledge based
@@ -113,20 +115,18 @@ export class Header extends Component {
             <nav className="navbar mega-menu" role="navigation" >
               <div className="container">
                 {/* Brand and toggle get grouped for better mobile display */}
-                <div className="menu-container">
-                  <a href="#" class="global-nav--wac__menu-toggle" data-event="clicked" data-uuid="3642d018-f6-8" data-event-component="linkButton" data-event-container="globalNavWac" data-schema-version="1">Toggle menu</a>
-                </div>
-
                 {/* Collect the nav links, forms, and other content for toggling */}
                 <div className="collapse navbar-collapse navbar-responsive-collapse">
                 {/* Navbar Brand */}
                   <div className="menu-container">
+
+
                       <div className="navbar-brand">
                         <a href="https://www.prismsoftware.com/">
                           <img className="shrink-logo" src={logo} alt="Prism Software" title="Logo" />
                         </a>
                       </div>
-                  {/* ENd Navbar Brand */}
+                  {/* End Navbar Brand */}
                     <ul className="nav navbar-nav" >
                       {/* Products */}
                       <li className="dropdown">

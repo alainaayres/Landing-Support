@@ -50,8 +50,7 @@ function Footer() {
                 <ul className="list-unstyled contacts">
                   <li>
                     <i className="radius-3x fa fa-map-marker" />
-                    15500 Rockfield Blvd, Suite C,
-                    Irvine, CA 92618
+                    184 Technology Dr. Suite 201, Irvine, CA 92618
                   </li>
                   <li>
                     <i className="radius-3x fa fa-phone" />
