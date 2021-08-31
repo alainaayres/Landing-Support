@@ -13,12 +13,13 @@ code {
 }
 
 a {
-    color: #fff;
+    color: #444444;
     text-decoration: none;
   }
   
   .p-menu1{
      height: 100%;
+     justify-content: right;
   }
   
   
@@ -26,20 +27,21 @@ a {
   
   /* Hamburger */
   .hamburger1 {
-    height: 45px;
-    margin: 10px;
+    height: 10px;
+    margin: 32px;
     display: -ms-grid;
     display: grid;
     grid-template-rows: repeat(3, 1fr);
-    justify-items: center;
+    justify-items: right;
     z-index: 120;
+    margin-right: 10vw;
   }
-  
+
   .hamburger1 div {
     background-color: rgb(61, 61, 61);
-    position: relative;
-    width: 40px;
-    height: 5px;
+    justify-content: right;
+    width: 23px;
+    height: 1px;
     margin-top: 7px;
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
@@ -58,7 +60,7 @@ a {
   #toggle1:checked + .hamburger1 .meat {
     -webkit-transform: rotate(45deg);
             transform: rotate(45deg);
-    margin-top: -5px;
+    margin-top: -0.5px;
   }
   
   #toggle1:checked + .hamburger1 .bottom {
@@ -67,45 +69,58 @@ a {
   }
   
   #toggle1:checked ~ .menu1 {
-    height: 340px;
+    height: 200px;
   }
   
   
   /* Menu */
   .menu1 {
-    width: 100%;
-    background-color: #02173F;
-    margin: 0;
+    margin-left: 5vw;
     display: -ms-grid;
-    display: grid;
-    grid-template-rows: 1fr repeat(4, 0.5fr);
-    grid-row-gap: 25px;
-    padding: 0;
+    margin-bottom: -70px;
     list-style: none;
     clear: both;
     width: auto;
-    text-align: center;
     height: 0px;
     overflow: hidden;
     transition: height .4s ease;
     z-index: 120;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
+    justify-content: left;
+    justify-items: left;
+    float: left;
+    position: relative;
+
   }
-  
+
   .menu1 a:first-child {
-    margin-top: 40px;
-  }
-  
-  .menu1 a:last-child {
-    margin-bottom: 40px;
+    margin-top: 20px;
+    color: inherit;
+    justify-content: left;
+    justify-items: left;
+    float: left;
+    position: relative;
+  } 
+
+  hr {
+    width: 90vw;
+    border-top: 1px solid rgb(158, 154, 154);
+    margin-top: 10px;
   }
   
   .link1 {
     width: 100%;
-    margin: 0;
-    padding: 10px 0;
-    font: 700 20px 'Oswald', sans-serif;
+    padding: 1px;
+    color: inherit;
+    justify-items: left;
+    float: left;
+    position: relative;
+    font: 500 14px 'Open Sans', sans-serif;
+    text-decoration: none;
+    display: space-evenly;
+    color: #444444;
+    justify-content: left;
   }
   
   .link1:hover {
@@ -113,6 +128,9 @@ a {
     color: rgb(61, 61, 61);
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
+    justify-items: left;
+    float: left;
+    position: relative;
   }
 @charset "UTF-8";/*!
  * Bootstrap v5.0.2 (https://getbootstrap.com/)
@@ -17167,7 +17185,7 @@ img.img-center,
 
 .header-v6 .navbar-brand img.shrink-logo {
 	display: inline;
-	margin-left: 100%;
+	margin-left: 5vw;
 	padding-top: 0;
 	padding-bottom: 0;
 }
@@ -17250,7 +17268,7 @@ img.img-center,
 	}
 
 	.header-v6 .navbar-nav {
-		z-index: 1;
+
   		overflow: hidden;
 		display: inline;
 		list-style-type: none;
@@ -18021,7 +18039,7 @@ img.img-center,
 
 	/*Navbar Brand*/
 	.header-fixed .header-v6.header-fixed-shrink .navbar-brand img.default-logo {
-		display: none;
+		display: flex;
 	}
 
 	.header-fixed .header-v6.header-fixed-shrink .navbar-brand img.shrink-logo {

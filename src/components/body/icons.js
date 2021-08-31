@@ -72,7 +72,7 @@ function Icons() {
                     </div>
                 </MediaQuery>
             
-                <MediaQuery minDeviceWidth={600} maxDeviceWidth={800}>
+                <MediaQuery minDeviceWidth={600} maxDeviceWidth={906}>
                     <div className='card-cont' style={{ position: 'relative', display: 'flex', justifyContent: 'center' }}>
                         <div className='row' style={{ justifyContent: 'center' }}>
                             <div className='container-2'>
@@ -130,11 +130,12 @@ function Icons() {
                         </div>
                     </div>
                 </MediaQuery>
-                <MediaQuery minDeviceWidth={800} maxDeviceWidth={1199}>
+                
+                <MediaQuery minDeviceWidth={906} maxDeviceWidth={960}>
                         <div className='card-cont' style={{ position: 'relative', display: 'flex', justifyContent: 'center' }}>
                     <div className='container-2'>
                     <a href={"mailto:support@prismsoftware.com"} target="_blank" style={{ textDecoration: 'none' }}>
-                        <div className='fas fa-layers fa-fw' style={{ marginLeft: -13.5, marginTop: 100 }} >
+                        <div className='fas fa-layers fa-fw' style={{ marginLeft: -12, marginTop: 100 }} >
                             <FontAwesomeIcon className='circle' icon={faCircle} style={{ fontSize: '5rem', color: '#158cc3' }}></FontAwesomeIcon>
                             <FontAwesomeIcon className='search' icon={faEnvelope} style={{ zIndex:99, fontSize: '2.5rem', color: '#fff', marginLeft: 12 }}></FontAwesomeIcon>
                         </div>
@@ -143,34 +144,34 @@ function Icons() {
                     </div>
                     <div className='container-2'>
                     <a href="https://get.teamviewer.com/prismsoftware" target="_blank" style={{ textDecoration: 'none' }} >
-                        <div className=' fas fa-layers fa-fw' style={{ marginLeft: 30, marginTop: 100 }} >
+                        <div className=' fas fa-layers fa-fw' style={{ marginLeft: -4, marginTop: 100 }} >
                             <FontAwesomeIcon icon={faCircle} style={{ fontSize: '5rem', color: '#158cc3' }}></FontAwesomeIcon>
                             <FontAwesomeIcon icon={faDesktop} style={{ zIndex:99, fontSize: '2.5rem', color: 'white', marginLeft: 11 }}></FontAwesomeIcon>
                         </div>
-                        <span style={{ paddingTop: 50, marginRight: '-28px', fontSize: 20 }}>Get Remote<br/>Support</span>
+                        <span style={{ paddingTop: 50, marginLeft: '-22px', fontSize: 20 }}>Get Remote<br/>Support</span>
                     </a>
                     </div>
                     <div className='container-2'>
                     <a href="https://prismsupport.com/documentation" target="_blank" style={{ textDecoration: 'none' }} >
-                        <div className=' fas fa-layers fa-fw' style={{ marginLeft: 48, marginTop: 100 }} >
+                        <div className=' fas fa-layers fa-fw' style={{ marginLeft: 28, marginTop: 100 }} >
                             <FontAwesomeIcon icon={faCircle} style={{ fontSize: '5rem', color: '#158cc3' }}></FontAwesomeIcon>
                             <FontAwesomeIcon icon={faCopy} style={{ zIndex:99, fontSize: '2.5rem', color: 'white', marginLeft: 15 }}></FontAwesomeIcon>
                         </div>
-                        <span style={{ paddingTop: 50, marginRight: '-30px', fontSize: 20 }}>Product<br/>Documentation</span>
+                        <span style={{ paddingTop: 50, marginLeft: '-20px', fontSize: 20 }}>Product<br/>Documentation</span>
                     </a>
                     </div>
                     <div className='container-2'>
                     <a href="https://www.prismsupport.com/documentation/Content/A_IntroTopics/Video-Library.htm" target="_blank" style={{ textDecoration: 'none' }} >
-                        <div className=' fas fa-layers fa-fw' style={{ marginLeft: 20, marginTop: 100 }} >
+                        <div className=' fas fa-layers fa-fw' style={{ marginLeft: -18, marginTop: 100 }} >
                             <FontAwesomeIcon icon={faCircle} style={{ fontSize: '5rem', color: '#158cc3' }}></FontAwesomeIcon>
                             <FontAwesomeIcon icon={faVideo} style={{ zIndex:99, fontSize: '2.5rem', color: 'white', marginLeft: 12 }}></FontAwesomeIcon>
                         </div>
-                        <span style={{ paddingTop: 50, marginLeft: '-25px', fontSize: 20, paddingBottom: 20 }}>Product<br/>Training Videos</span>
+                        <span style={{ paddingTop: 50, marginLeft: '-50px', fontSize: 20, paddingBottom: 20 }}>Product<br/>Training Videos</span>
                     </a>
                     </div>
                     <div className='container-2'>
                     <a>
-                        <div className=' fas fa-layers fa-fw' style={{ marginLeft: -3, marginTop: 100 }} >
+                        <div className=' fas fa-layers fa-fw' style={{ marginLeft: -22, marginTop: 100 }} >
                             <FontAwesomeIcon icon={faCircle} style={{ fontSize: '5rem', color: '#158cc3' }}></FontAwesomeIcon>
                             <FontAwesomeIcon icon={faInfo} style={{ zIndex:99, fontSize: '2.5rem', color: 'white', marginLeft: 21 }}></FontAwesomeIcon>
                         </div>
@@ -179,7 +180,7 @@ function Icons() {
                     </div>
                     </div>
                 </MediaQuery>
-                <MediaQuery minDeviceWidth={1200}>
+                <MediaQuery minDeviceWidth={961}>
                     <div className='card-cont' style={{ position: 'relative', display: 'flex', justifyContent: 'center' }}>
                     <div className='container-2'>
                     <a href={"mailto:support@prismsoftware.com"} target="_blank" style={{ textDecoration: 'none' }}>

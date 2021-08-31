@@ -20,6 +20,7 @@ import '../../assets/css/custom.css'
 import './hamburger.css';
 import logo from '../prism_logo.png'
 import {Helmet} from 'react-helmet';
+import MediaQuery from 'react-responsive';
 
 /*breadcrumb v3 max height265
 exclude technical knowledge based
@@ -108,51 +109,49 @@ export class Header extends Component {
         <script src="assets/plugins/placeholder-IE-fixes.js"></script>
         </Helmet>
         {/* End Google Tag Manager (noscript) */}
-        <div className='header-v6'>
+        <div className='wrapper'>
           {/*=== Header v6 ===*/}
-          <div>
+          <div className='header-v6 header-classic-white-sticky header-sticky'>
             {/* Navbar */}
-            <nav className="navbar mega-menu" role="navigation" >
-              <div className="container">  
-                {/* Brand and toggle get grouped for better mobile display */}
-            
-                {/* Collect the nav links, forms, and other content for toggling */}
-                <div className="collapse navbar-collapse navbar-responsive-collapse">
-                {/* Navbar Brand */}
-                  <div className="menu-container">
-                      
-                          <nav id="navbar" className="navigation" role="navigation">
-                              <input id="toggle1" type="checkbox" />
-                              <label className="hamburger1" for="toggle1">
-                              <div className="top"></div>
-                              <div className="meat"></div>
-                              <div className="bottom"></div>
-                              </label>
-                          
-                              <nav className="menu1">
-                              <a className="link1" href="">Our Models</a>
-                              <a className="link1" href="">Specialties</a>
-                              <a className="link1" href="">About</a>
-                              <a className="link1" href="">Blog</a>
-                              <a className="lin1 kbutton-nav" href="">Contact</a>
-                              </nav>
-                          </nav>
-               
-
-                      <div className="navbar-brand">
+                <MediaQuery maxDeviceWidth={992} style={{ justifyContent: 'left' }}>
+                    <div className="navbar-brand" style={{ justifyContent:'left' }}>
                         <a href="https://www.prismsoftware.com/">
-                          <img className="shrink-logo" src={logo} alt="Prism Software" title="Logo" />
+                            <img className="shrink-logo" src={logo} alt="Prism Software" title="Logo" />
                         </a>
-                      </div>
-                  {/* End Navbar Brand */}
-                    <ul className="nav navbar-nav" >
+                    </div>
+                    <Hamburger />
+                </MediaQuery>
+            <nav className="navbar mega-menu" role="navigation" >
+                <div className="container">
+                <div className="collapse navbar-collapse navbar-responsive-collapse collapse-in" aria-expanded='true'>
+                    {/*Brand and toggle get grouped for better mobile display*/}
+                    <div className="menu-container">
+
+                        {/*Navbar Brand*/}
+                    
+                        {/*End Navbar Brand*/}
+                        
+                        <div className="navbar-brand" style={{ float: 'left' }}>
+                            <a href="https://www.prismsoftware.com/">
+                                <img className="shrink-logo" src={logo} alt="Prism Software"
+                                    title="Logo" />
+                            </a>
+                        </div>
+
+                        </div>
+                
+                    {/*Collect the nav links, forms, and other content for toggling*/}
+                    
+                  <div class="menu-container">
+                    <ul className="nav navbar-nav">
+
                       {/* Products */}
-                      <li className="dropdown">
-                        <a href className="dropdown-toggle" target data-toggle="dropdown" >
+                      <li className='dropdown mega-menu-fullwidth'>
+                        <a href className="dropdown-toggle" target data-toggle="dropdown" style={{ cursor: 'pointer' }} >
                           Products
                         </a>
                         <ul className="first dropdown-menu" style={{ width: '70%', left: '8%', right: '8%' }}>
-                          <li>
+                          <li >
                             <div className="mega-menu-content disable-icons">
                               <div className="container">
                                 <div className="row equal-height">
@@ -238,7 +237,7 @@ export class Header extends Component {
                       {/* End Products */}
                       {/* Support */}
                       <li className="dropdown">
-                        <a className="dropdown-toggle" data-toggle>
+                        <a className="dropdown-toggle" data-toggle='dropdown' style={{ cursor: 'pointer' }}>
                           Support
                         </a>
                          <ul className="dropdown-menu">
@@ -268,7 +267,7 @@ export class Header extends Component {
                       {/* End Company */}
                       {/* Company */}
                       <li className="dropdown">
-                        <a href className="dropdown-toggle" data-toggle="dropdown">
+                        <a href className="dropdown-toggle" data-toggle="dropdown" style={{ cursor: 'pointer' }}>
                           About
                         </a>
                         <ul className="dropdown-menu">
@@ -299,13 +298,10 @@ export class Header extends Component {
                 {/*/navbar-collapse*/}
               </div>
             </nav>
+            </div>
             {/* End Navbar */}
           </div>
-          {/*=== End Header v6 ===*/}
-        </div>
-
-  </div>
-
+          </div>
         );
     };
 };
