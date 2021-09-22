@@ -5,7 +5,7 @@ import bootstrap from 'bootstrap';
 function Contacts() {
     return (
         <div>
-        <div className='container' >
+        <div className='container' style={{ marginTop: '40px' }} >
             <div className='row' >
             <div className='col'>
                 <div className='card' >
@@ -26,7 +26,7 @@ function Contacts() {
                     <h3>Technical Support</h3>
                         <p>+1 (949) 855-3100 Ext. 1</p>
                         <p>
-                        <a href={'mailto:support@prismsoftware.com'}>sales@prismsoftware.com</a>
+                        <a href={'mailto:support@prismsoftware.com'}>support@prismsoftware.com</a>
                         </p>
                         <p style={{ textAlign: 'center' }}>
                         Tech Support Hours<br/>

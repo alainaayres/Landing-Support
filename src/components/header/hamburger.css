@@ -3,11 +3,6 @@ a {
     text-decoration: none;
   }
   
-  .p-menu1{
-     height: 100%;
-     justify-content: right;
-  }
-  
   
   
   
@@ -55,7 +50,7 @@ a {
   }
   
   #toggle1:checked ~ .menu1 {
-    height: 200px;
+    height: 100%;
   }
   
   
@@ -80,41 +75,4 @@ a {
 
   }
 
-  .menu1 a:first-child {
-    margin-top: 20px;
-    color: inherit;
-    justify-content: left;
-    justify-items: left;
-    float: left;
-    position: relative;
-  } 
-
-  hr {
-    width: 90vw;
-    border-top: 1px solid rgb(158, 154, 154);
-    margin-top: 10px;
-  }
   
-  .link1 {
-    width: 100%;
-    padding: 1px;
-    color: inherit;
-    justify-items: left;
-    float: left;
-    position: relative;
-    font: 500 14px 'Open Sans', sans-serif;
-    text-decoration: none;
-    display: space-evenly;
-    color: #444444;
-    justify-content: left;
-  }
-  
-  .link1:hover {
-    background-color: #fff;
-    color: rgb(61, 61, 61);
-    -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-    justify-items: left;
-    float: left;
-    position: relative;
-  }

@@ -1,6 +1,6 @@
 {
   "name": "prism-support",
-  "homepage": "https://romantic-ramanujan-c95b7e.netlify.app/",
+  "homepage": ".",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
@@ -35,11 +35,10 @@
     "serve": "^12.0.0"
   },
   "scripts": {
-    "start": "parcel src/index.html",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "netlify deploy": "netlify deploy --dir=./build -p -m \"$(git log -1 --pretty=%B)\""
+    "eject": "react-scripts eject"
   },
   "reporters": [
     "default",

@@ -37630,38 +37630,40 @@ class Hamburger extends _react.Component {
       style: {
         justifyItems: 'left'
       }
-    }, /*#__PURE__*/_react.default.createElement("a", {
-      className: " text-uppercase link1",
-      href: "",
+    }, /*#__PURE__*/_react.default.createElement("ul", null, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("a", {
+      className: "dropdown text-uppercase link1",
+      href: "#",
       style: {
         textAlign: 'left',
         marginBottom: '10px'
       }
-    }, "Products"), /*#__PURE__*/_react.default.createElement("hr", {
+    }, "Products"), /*#__PURE__*/_react.default.createElement("ul", null, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("a", {
+      href: ""
+    }, "dropdown")))), /*#__PURE__*/_react.default.createElement("hr", {
       class: "solid",
       style: {
         marginBottom: '10px'
       }
-    }), /*#__PURE__*/_react.default.createElement("a", {
-      className: "text-uppercase link1",
-      href: "",
+    }), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("a", {
+      className: "dropdown text-uppercase link1",
+      href: "#",
       style: {
         textAlign: 'left',
         marginBottom: '10px'
       }
-    }, "Support"), /*#__PURE__*/_react.default.createElement("hr", {
+    }, "Support")), /*#__PURE__*/_react.default.createElement("hr", {
       className: "solid",
       style: {
         marginBottom: '10px'
       }
-    }), /*#__PURE__*/_react.default.createElement("a", {
-      className: "text-uppercase link1",
-      href: "",
+    }), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("a", {
+      className: "dropdown text-uppercase link1",
+      href: "#",
       style: {
         textAlign: 'left',
         marginBottom: '10px'
       }
-    }, "About"), /*#__PURE__*/_react.default.createElement("hr", {
+    }, "About")), /*#__PURE__*/_react.default.createElement("hr", {
       className: "solid",
       style: {
         marginBottom: '10px'
@@ -37673,7 +37675,7 @@ class Hamburger extends _react.Component {
       style: {
         padding: '0px 5px 0px 5px'
       }
-    }, "Schedule a Demo"))))));
+    }, "Schedule a Demo")))))));
   }
 
 }
@@ -41149,7 +41151,7 @@ class Header extends _react.Component {
       href: _prism_logo.default
     }), /*#__PURE__*/_react.default.createElement("link", {
       rel: "canonical",
-      href: "https://prismsoftware.com/"
+      href: "https://prismsoftware.com/support"
     }), /*#__PURE__*/_react.default.createElement("link", {
       rel: "stylesheet",
       type: "text/css",
@@ -41161,109 +41163,170 @@ class Header extends _react.Component {
       crossorigin: "anonymous"
     }), /*#__PURE__*/_react.default.createElement("link", {
       rel: "stylesheet",
-      href: "../../assets/plugins/bootstrap/css/bootstrap.min.css"
+      href: "/assets/plugins/bootstrap/css/bootstrap.min.css"
     }), /*#__PURE__*/_react.default.createElement("link", {
       rel: "stylesheet",
-      href: "../../assets/plugins/bootstrap/css/bootstrap.css"
+      href: "/assets/plugins/bootstrap/css/bootstrap.css"
     }), /*#__PURE__*/_react.default.createElement("link", {
       rel: "stylesheet",
-      href: "../../assets/css/style.css"
+      href: "/assets/css/style.css"
     }), /*#__PURE__*/_react.default.createElement("link", {
       rel: "stylesheet",
-      href: "../../assets/css/app.css"
+      href: "/assets/css/app.css"
     }), /*#__PURE__*/_react.default.createElement("link", {
       rel: "stylesheet",
-      href: "../../assets/css/headers/header-v6.css"
+      href: "/assets/css/headers/header-v6.css"
     }), /*#__PURE__*/_react.default.createElement("link", {
       rel: "stylesheet",
-      href: "../../assets/css/footers/footer-v6.css"
+      href: "./support/assets/css/footers/footer-v6.css"
     }), /*#__PURE__*/_react.default.createElement("link", {
       rel: "stylesheet",
-      href: "../../assets/plugins/animate.css"
+      href: "/support/assets/plugins/animate.css"
     }), /*#__PURE__*/_react.default.createElement("link", {
       rel: "stylesheet",
-      href: "../../assets/plugins/line-icons/line-icons.css"
+      href: "/support/assets/plugins/line-icons/line-icons.css"
     }), /*#__PURE__*/_react.default.createElement("link", {
       rel: "stylesheet",
-      href: "../../assets/plugins/font-awesome/css/font-awesome.min.css"
+      href: "/support/assets/plugins/font-awesome/css/font-awesome.min.css"
     }), /*#__PURE__*/_react.default.createElement("link", {
       rel: "stylesheet",
-      href: "../../assets/plugins/fancybox/source/jquery.fancybox.css"
+      href: "/support/assets/plugins/fancybox/source/jquery.fancybox.css"
     }), /*#__PURE__*/_react.default.createElement("link", {
       rel: "stylesheet",
-      href: "../../assets/plugins/layer-slider/layerslider/css/layerslider.css"
+      href: "/support/assets/plugins/layer-slider/layerslider/css/layerslider.css"
     }), /*#__PURE__*/_react.default.createElement("link", {
       rel: "stylesheet",
-      href: "../../assets/plugins/youtube-player/css/YTPlayer.css"
+      href: "/support/assets/plugins/youtube-player/css/YTPlayer.css"
     }), /*#__PURE__*/_react.default.createElement("link", {
       rel: "stylesheet",
-      href: "../../assets/css/theme-colors/default.css",
+      href: "/support/assets/css/theme-colors/default.css",
       id: "style_color"
     }), /*#__PURE__*/_react.default.createElement("link", {
       rel: "stylesheet",
-      href: "../../assets/css/theme-skins/dark.css"
+      href: "/support/assets/css/theme-skins/dark.css"
     }), /*#__PURE__*/_react.default.createElement("link", {
       rel: "stylesheet",
-      href: "../../assets/css/blocks.css"
+      href: "/support/assets/css/blocks.css"
     }), /*#__PURE__*/_react.default.createElement("link", {
       rel: "stylesheet",
-      href: "../../assets/css/custom.css"
+      href: "/support/assets/css/custom.css"
     }), /*#__PURE__*/_react.default.createElement("noscript", null, "<iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-TWRGN3T\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe>"), /*#__PURE__*/_react.default.createElement("script", {
-      type: "text/javascript",
-      src: "assets/plugins/jquery/jquery.min.js"
+      src: "https://unpkg.com/babel-standalone@6/babel.min.js"
+    }), /*#__PURE__*/_react.default.createElement("script", {
+      type: "text/babel",
+      src: "/support/assets/plugins/bootstrap/js/bootstrap.min.js"
+    }), /*#__PURE__*/_react.default.createElement("script", {
+      type: "text/babel",
+      src: "/support/assets/jquery/jquery.min.js"
+    }), /*#__PURE__*/_react.default.createElement("script", {
+      type: "text/babel",
+      src: "/support/assets/jquery/jquery-migrate.min.js"
+    }), /*#__PURE__*/_react.default.createElement("script", {
+      type: "text/babel",
+      src: "/support/assets/plugins/back-to-top.js"
+    }), /*#__PURE__*/_react.default.createElement("script", {
+      type: "text/babel",
+      src: "/support/assets/plugins/smoothScroll.js"
+    }), /*#__PURE__*/_react.default.createElement("script", {
+      type: "text/babel",
+      src: "./waypoints.min.js"
+    }), /*#__PURE__*/_react.default.createElement("script", {
+      type: "text/babel",
+      src: "/support/assets/plugins/jquery.parallax.js"
+    }), /*#__PURE__*/_react.default.createElement("script", {
+      type: "text/babel",
+      src: "/support/assets/plugins/counter/jquery.counterup.min.js"
+    }), /*#__PURE__*/_react.default.createElement("script", {
+      type: "text/babel",
+      src: "/support/assets/plugins/jquery/jquery.fancybox.pack.js"
+    }), /*#__PURE__*/_react.default.createElement("script", {
+      type: "text/babel",
+      src: "/support/assets/js/custom.js"
+    }), /*#__PURE__*/_react.default.createElement("script", {
+      type: "text/babel",
+      src: "/support/assets/js/app.js"
+    }), /*#__PURE__*/_react.default.createElement("script", {
+      type: "text/babel",
+      src: "/support/assets/plugins/wow-animations/js/wow.min.js"
+    }), /*#__PURE__*/_react.default.createElement("script", {
+      type: "text/babel",
+      src: "/support/assets/js/plugins/fancy-box.js"
+    }), /*#__PURE__*/_react.default.createElement("script", {
+      type: "text/babel",
+      src: "/support/assets/js/plugins/style-switcher.js"
+    }), /*#__PURE__*/_react.default.createElement("script", {
+      type: "text/babel",
+      src: "/support/assets/plugins/respond.js"
+    }), /*#__PURE__*/_react.default.createElement("script", {
+      type: "text/babel",
+      src: "/support/assets/plugins/html5shiv.js"
+    }), /*#__PURE__*/_react.default.createElement("script", {
+      type: "text/babel",
+      src: "/support/assets/plugins/placeholder-IE-fixes.js"
     }), /*#__PURE__*/_react.default.createElement("script", {
       type: "text/javascript",
-      src: "assets/plugins/jquery/jquery-migrate.min.js"
+      src: "/support/assets/plugins/jquery/jquery.min.js"
     }), /*#__PURE__*/_react.default.createElement("script", {
       type: "text/javascript",
-      src: "assets/plugins/bootstrap/js/bootstrap.min.js"
+      src: "/support/assets/plugins/jquery/jquery-migrate.min.js"
     }), /*#__PURE__*/_react.default.createElement("script", {
       type: "text/javascript",
-      src: "assets/plugins/back-to-top.js"
+      src: "/support/assets/plugins/bootstrap/js/bootstrap.min.js"
     }), /*#__PURE__*/_react.default.createElement("script", {
       type: "text/javascript",
-      src: "assets/plugins/smoothScroll.js"
+      src: "https://prismsoftware.com/support/assets/plugins/back-to-top.js"
     }), /*#__PURE__*/_react.default.createElement("script", {
       type: "text/javascript",
-      src: "assets/plugins/jquery.parallax.js"
+      src: "/support/assets/plugins/smoothScroll.js"
     }), /*#__PURE__*/_react.default.createElement("script", {
       type: "text/javascript",
-      src: "assets/plugins/counter/waypoints.min.js"
+      src: "/support/assets/plugins/jquery.parallax.js"
     }), /*#__PURE__*/_react.default.createElement("script", {
       type: "text/javascript",
-      src: "assets/plugins/counter/jquery.counterup.min.js"
+      src: "/support/assets/plugins/counter/waypoints.min.js"
     }), /*#__PURE__*/_react.default.createElement("script", {
       type: "text/javascript",
-      src: "assets/plugins/fancybox/source/jquery.fancybox.pack.js"
-    }), /*#__PURE__*/_react.default.createElement("script", {
-      src: "assets/plugins/wow-animations/js/wow.min.js"
+      src: "/support/assets/plugins/counter/jquery.counterup.min.js"
     }), /*#__PURE__*/_react.default.createElement("script", {
       type: "text/javascript",
-      src: "assets/js/custom.js"
+      src: "/support/assets/plugins/fancybox/source/jquery.fancybox.pack.js"
+    }), /*#__PURE__*/_react.default.createElement("script", {
+      src: "/support/assets/plugins/wow-animations/js/wow.min.js"
     }), /*#__PURE__*/_react.default.createElement("script", {
       type: "text/javascript",
-      src: "assets/js/app.js"
+      src: "/support/assets/js/custom.js"
     }), /*#__PURE__*/_react.default.createElement("script", {
       type: "text/javascript",
-      src: "assets/js/plugins/fancy-box.js"
+      src: "/support/assets/js/app.js"
     }), /*#__PURE__*/_react.default.createElement("script", {
       type: "text/javascript",
-      src: "assets/js/plugins/style-switcher.js"
+      src: "/support/assets/js/plugins/fancy-box.js"
     }), /*#__PURE__*/_react.default.createElement("script", {
-      src: "assets/plugins/respond.js"
+      type: "text/javascript",
+      src: "/support/assets/js/plugins/style-switcher.js"
     }), /*#__PURE__*/_react.default.createElement("script", {
-      src: "assets/plugins/html5shiv.js"
+      src: "/support/assets/plugins/respond.js"
     }), /*#__PURE__*/_react.default.createElement("script", {
-      src: "assets/plugins/placeholder-IE-fixes.js"
+      src: "/support/assets/plugins/html5shiv.js"
+    }), /*#__PURE__*/_react.default.createElement("script", {
+      src: "/support/assets/plugins/placeholder-IE-fixes.js"
     })), /*#__PURE__*/_react.default.createElement("div", {
       className: "wrapper"
     }, /*#__PURE__*/_react.default.createElement("div", {
-      className: "header-v6 header-classic-white-sticky header-sticky"
+      className: "header-v6 header-classic-white-sticky header-sticky",
+      style: {
+        position: 'relative',
+        width: '100%',
+        top: '0',
+        backgroundColor: 'white'
+      }
     }, /*#__PURE__*/_react.default.createElement(_reactResponsive.default, {
       maxDeviceWidth: 992,
       style: {
         justifyContent: 'left'
       }
+    }, /*#__PURE__*/_react.default.createElement("div", {
+      className: "container-fluid"
     }, /*#__PURE__*/_react.default.createElement("div", {
       className: "navbar-brand",
       style: {
@@ -41276,7 +41339,165 @@ class Header extends _react.Component {
       src: _prism_logo.default,
       alt: "Prism Software",
       title: "Logo"
-    }))), /*#__PURE__*/_react.default.createElement(_hamburger.default, null)), /*#__PURE__*/_react.default.createElement("nav", {
+    }))), /*#__PURE__*/_react.default.createElement("nav", {
+      id: "navbar",
+      className: "navigation",
+      role: "navigation",
+      style: {
+        justifyContent: 'left'
+      }
+    }, /*#__PURE__*/_react.default.createElement("input", {
+      id: "toggle1",
+      type: "checkbox"
+    }), /*#__PURE__*/_react.default.createElement("label", {
+      className: "hamburger1",
+      for: "toggle1"
+    }, /*#__PURE__*/_react.default.createElement("div", {
+      className: "top"
+    }), /*#__PURE__*/_react.default.createElement("div", {
+      className: "meat"
+    }), /*#__PURE__*/_react.default.createElement("div", {
+      className: "bottom"
+    })), /*#__PURE__*/_react.default.createElement("nav", {
+      className: "menu1",
+      style: {
+        justifyItems: 'left'
+      }
+    }, /*#__PURE__*/_react.default.createElement("div", {
+      className: "navbar-collapse navbar-responsive-collapse collapse in",
+      "aria-expanded": "true"
+    }, /*#__PURE__*/_react.default.createElement("div", {
+      className: "menu-container"
+    }, /*#__PURE__*/_react.default.createElement("ul", {
+      className: "nav navbar-nav"
+    }, /*#__PURE__*/_react.default.createElement("li", {
+      className: "dropdown mega-menu-fullwidth"
+    }, /*#__PURE__*/_react.default.createElement("a", {
+      className: " text-uppercase link1 dropdown-toggle",
+      href: true,
+      "data-toggle": "dropdown",
+      style: {
+        textAlign: 'left'
+      }
+    }, "Products"), /*#__PURE__*/_react.default.createElement("ul", {
+      className: "dropdown-menu",
+      style: {
+        width: '70%',
+        left: '8%',
+        right: '8%'
+      }
+    }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("div", {
+      className: "mega-menu-content disable-icons"
+    }, /*#__PURE__*/_react.default.createElement("div", {
+      className: "container"
+    }, /*#__PURE__*/_react.default.createElement("div", {
+      className: "row equal-height"
+    }, /*#__PURE__*/_react.default.createElement("div", {
+      className: "col-md-4 equal-height-in"
+    }, /*#__PURE__*/_react.default.createElement("ul", {
+      className: "list-unstyled equal-height-list"
+    }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("h3", null, "Enterprise Content Management (ECM)")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("a", {
+      href: "https://www.prismsoftware.com/products/ecm/",
+      target: "_blank"
+    }, "DocRecord")), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("h3", null, "Desktop Document Processing & Workflow")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("a", {
+      href: "https://www.prismsoftware.com/products/prism-workpath/",
+      target: "_blank"
+    }, "Prism WorkPath")), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("h3", null, "Smartphone Forms with eSignature")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("a", {
+      href: "https://www.prismsoftware.com/products/smartphone-forms/",
+      target: "_blank"
+    }, "Smartphone Forms")))), /*#__PURE__*/_react.default.createElement("div", {
+      className: "col-md-4 equal-height-in"
+    }, /*#__PURE__*/_react.default.createElement("ul", {
+      className: "list-unstyled equal-height-list"
+    }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("h3", null, "Automated Data Capture & Extraction")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("a", {
+      href: "https://www.prismsoftware.com/products/prism-capture/",
+      target: "_blank"
+    }, "Prism Capture")), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("h3", null, "Automated Processing of Scanned Documents")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("a", {
+      href: "https://www.prismsoftware.com/products/scanpath/",
+      target: "_blank"
+    }, "ScanPath")), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("h3", null, "Automated Business Communications")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("a", {
+      href: "https://www.prismsoftware.com/products/docform/",
+      target: "_blank"
+    }, "DocForm")))), /*#__PURE__*/_react.default.createElement("div", {
+      className: "col-md-4 equal-height-in"
+    }, /*#__PURE__*/_react.default.createElement("ul", {
+      className: "list-unstyled equal-height-list"
+    }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("h3", null, "eForms & Data Collection")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("a", {
+      href: "https://www.prismsoftware.com/products/electronic-forms/",
+      target: "_blank"
+    }, "eForms")), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("h3", null, "MFP Security & Breach Alerts")), /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("a", {
+      href: "https://www.prismsoftware.com/products/bizhub-secure-alert/",
+      target: "_blank"
+    }, "bizhub SECURE Alert")), /*#__PURE__*/_react.default.createElement("br", null))))))))), /*#__PURE__*/_react.default.createElement("li", {
+      className: "dropdown"
+    }, /*#__PURE__*/_react.default.createElement("a", {
+      className: "text-uppercase link1",
+      href: true,
+      "data-toggle": "dropdown",
+      style: {
+        textAlign: 'left',
+        appearance: 'none',
+        border: 'none'
+      }
+    }, "Support"), /*#__PURE__*/_react.default.createElement("ul", {
+      className: "dropdown-menu"
+    }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("div", {
+      className: "dropdown disable-icons"
+    }, /*#__PURE__*/_react.default.createElement("div", {
+      className: "dropdown-list"
+    }, /*#__PURE__*/_react.default.createElement("ul", {
+      className: " list-unstyled equal-height-list",
+      style: {
+        display: 'none'
+      }
+    }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("a", {
+      href: "http://support.prismsoftware.com"
+    }, " Support")), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("li", {
+      className: true
+    }, /*#__PURE__*/_react.default.createElement("a", {
+      href: "https://prismsupport.com/documentation",
+      target: "_blank"
+    }, "Product Documentation")), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("li", {
+      className: true
+    }, /*#__PURE__*/_react.default.createElement("a", {
+      href: "https://www.prismsupport.com/documentation/Content/A_IntroTopics/Video-Library.htm",
+      target: "_blank"
+    }, "Product Training Videos")))))))), /*#__PURE__*/_react.default.createElement("li", {
+      className: "dropdown"
+    }, /*#__PURE__*/_react.default.createElement("a", {
+      href: true,
+      className: "text-uppercase link1 dropdown-toggle",
+      "data-toggle": "dropdown",
+      style: {
+        cursor: 'pointer'
+      }
+    }, "About"), /*#__PURE__*/_react.default.createElement("ul", {
+      className: "dropdown-menu"
+    }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("div", {
+      className: "dropdown disable-icons"
+    }, /*#__PURE__*/_react.default.createElement("div", {
+      className: "dropdown-list"
+    }, /*#__PURE__*/_react.default.createElement("ul", {
+      className: " list-unstyled equal-height-list"
+    }, /*#__PURE__*/_react.default.createElement("li", null, /*#__PURE__*/_react.default.createElement("a", {
+      href: "https://prismsoftware.com/about/",
+      target: "_blank"
+    }, " Company")), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("li", {
+      className: true
+    }, /*#__PURE__*/_react.default.createElement("a", {
+      href: "https://prismsoftware.com/news/",
+      target: "_blank"
+    }, "News")))))))), /*#__PURE__*/_react.default.createElement("a", {
+      className: "dropdown-toggle",
+      href: "https://prismsoftware.com/contact-us/",
+      target: "_blank"
+    }, /*#__PURE__*/_react.default.createElement("button", {
+      type: "submit",
+      className: "text-uppercase btn-u btn-u-blue",
+      style: {
+        padding: '0px 5px 0px 5px'
+      }
+    }, "Schedule a Demo "))))))))), /*#__PURE__*/_react.default.createElement("nav", {
       className: "navbar mega-menu",
       role: "navigation"
     }, /*#__PURE__*/_react.default.createElement("div", {
@@ -41490,32 +41711,36 @@ function HeadPhoto() {
     style: {
       maxHeight: '300px',
       position: 'relative',
-      fontSize: '4vw'
+      fontSize: '4vw',
+      marginBottom: '7vw'
     }
   }, /*#__PURE__*/_react.default.createElement("link", {
     rel: "stylesheet",
-    href: "../assets/css/blocks.css"
+    href: "https://prismsoftware.com/support/assets/css/blocks.css"
   }), /*#__PURE__*/_react.default.createElement("link", {
     rel: "stylesheet",
     type: "text/css",
     href: "https://fonts.googleapis.com/css?family=Open+Sans:400,300,600&subset=cyrillic,latin"
   }), /*#__PURE__*/_react.default.createElement("link", {
     rel: "stylesheet",
-    href: "../assets/css/custom.css"
+    href: "https://prismsoftware.com/support/assets/css/custom.css"
   }), /*#__PURE__*/_react.default.createElement("link", {
     rel: "stylesheet",
-    href: "../assets/css/app.css"
+    href: "https://prismsoftware.com/support/assets/css/app.css"
   }), /*#__PURE__*/_react.default.createElement("img", {
     src: _whitegradient.default,
     className: "img-fluid",
     alt: "Responsive image",
     style: {
-      maxHeight: '300px',
+      maxHeight: '400px',
       width: '100%',
       objectFit: 'cover'
     }
   }), /*#__PURE__*/_react.default.createElement("div", {
-    className: "centered container"
+    className: "centered container",
+    style: {
+      alignContent: 'center'
+    }
   }, /*#__PURE__*/_react.default.createElement("h1", null, "Browse our resources"), /*#__PURE__*/_react.default.createElement("h3", null, "Take advantage of all the resources that Prism has to offer to maximize ", /*#__PURE__*/_react.default.createElement("br", null), " the value of your Prism Software solutions"))));
 }
 
@@ -58398,37 +58623,7 @@ function Icons() {
       fontSize: 14,
       paddingBottom: 10
     }
-  }, "Product", /*#__PURE__*/_react.default.createElement("br", null), "Training Videos"))), /*#__PURE__*/_react.default.createElement("div", {
-    className: "column"
-  }, /*#__PURE__*/_react.default.createElement("a", null, /*#__PURE__*/_react.default.createElement("div", {
-    className: " fas fa-layers fa-fw",
-    style: {
-      marginLeft: 53,
-      marginTop: 50
-    }
-  }, /*#__PURE__*/_react.default.createElement(_reactFontawesome.FontAwesomeIcon, {
-    icon: _freeSolidSvgIcons.faCircle,
-    style: {
-      fontSize: '4.2rem',
-      color: '#158cc3'
-    }
-  }), /*#__PURE__*/_react.default.createElement(_reactFontawesome.FontAwesomeIcon, {
-    icon: _freeSolidSvgIcons.faInfo,
-    style: {
-      zIndex: 99,
-      fontSize: '2rem',
-      color: 'white',
-      marginLeft: 18
-    }
-  })), /*#__PURE__*/_react.default.createElement("span", {
-    style: {
-      paddingTop: 40,
-      marginLeft: '17px',
-      marginRight: '50px',
-      fontSize: 14,
-      paddingBottom: 10
-    }
-  }, "Technical", /*#__PURE__*/_react.default.createElement("br", null), "Knowledge Base")))))))), /*#__PURE__*/_react.default.createElement(_reactResponsive.default, {
+  }, "Product", /*#__PURE__*/_react.default.createElement("br", null), "Training Videos")))))))), /*#__PURE__*/_react.default.createElement(_reactResponsive.default, {
     minDeviceWidth: 600,
     maxDeviceWidth: 906
   }, /*#__PURE__*/_react.default.createElement("div", {
@@ -58591,37 +58786,7 @@ function Icons() {
       fontSize: 16,
       paddingBottom: 15
     }
-  }, "Product", /*#__PURE__*/_react.default.createElement("br", null), "Training Videos"))), /*#__PURE__*/_react.default.createElement("div", {
-    className: "column"
-  }, /*#__PURE__*/_react.default.createElement("a", null, /*#__PURE__*/_react.default.createElement("div", {
-    className: " fas fa-layers fa-fw",
-    style: {
-      marginLeft: 53,
-      marginTop: 100
-    }
-  }, /*#__PURE__*/_react.default.createElement(_reactFontawesome.FontAwesomeIcon, {
-    icon: _freeSolidSvgIcons.faCircle,
-    style: {
-      fontSize: '5rem',
-      color: '#158cc3'
-    }
-  }), /*#__PURE__*/_react.default.createElement(_reactFontawesome.FontAwesomeIcon, {
-    icon: _freeSolidSvgIcons.faInfo,
-    style: {
-      zIndex: 99,
-      fontSize: '2.5rem',
-      color: 'white',
-      marginLeft: 21
-    }
-  })), /*#__PURE__*/_react.default.createElement("span", {
-    style: {
-      paddingTop: 50,
-      marginLeft: '17px',
-      marginRight: '50px',
-      fontSize: 16,
-      paddingBottom: 15
-    }
-  }, "Technical", /*#__PURE__*/_react.default.createElement("br", null), "Knowledge Base")))))))), /*#__PURE__*/_react.default.createElement(_reactResponsive.default, {
+  }, "Product", /*#__PURE__*/_react.default.createElement("br", null), "Training Videos")))))))), /*#__PURE__*/_react.default.createElement(_reactResponsive.default, {
     minDeviceWidth: 906,
     maxDeviceWidth: 960
   }, /*#__PURE__*/_react.default.createElement("div", {
@@ -59039,23 +59204,23 @@ function Demo() {
     }
   }, /*#__PURE__*/_react.default.createElement("link", {
     rel: "stylesheet",
-    href: "assets/css/theme-colors/default.css",
+    href: "https://prismsoftware.com/support/assets/css/theme-colors/default.css",
     id: "style_color"
   }), /*#__PURE__*/_react.default.createElement("link", {
     rel: "stylesheet",
-    href: "assets/css/theme-skins/dark.css"
+    href: "https://prismsoftware.com/support/assets/css/theme-skins/dark.css"
   }), /*#__PURE__*/_react.default.createElement("link", {
     rel: "stylesheet",
-    href: "assets/css/blocks.css"
+    href: "https://prismsoftware.com/support/assets/css/blocks.css"
   }), /*#__PURE__*/_react.default.createElement("link", {
     rel: "stylesheet",
-    href: "assets/css/style.css"
+    href: "https://prismsoftware.com/support/assets/css/style.css"
   }), /*#__PURE__*/_react.default.createElement("link", {
     rel: "stylesheet",
-    href: "assets/css/app.css"
+    href: "https://prismsoftware.com/support/assets/css/app.css"
   }), /*#__PURE__*/_react.default.createElement("link", {
     rel: "stylesheet",
-    href: "assets/css/custom.css"
+    href: "https://prismsoftware.com/support/assets/css/custom.css"
   }), /*#__PURE__*/_react.default.createElement("link", {
     rel: "stylesheet",
     href: "https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css",
@@ -59063,22 +59228,22 @@ function Demo() {
     crossorigin: "anonymous"
   }), /*#__PURE__*/_react.default.createElement("link", {
     rel: "stylesheet",
-    href: "../../assets/plugins/bootstrap/css/bootstrap.min.css"
+    href: "https://prismsoftware.com/support/assets/plugins/bootstrap/css/bootstrap.min.css"
   }), /*#__PURE__*/_react.default.createElement("link", {
     rel: "stylesheet",
-    href: "../../assets/plugins/bootstrap/css/bootstrap.css"
+    href: "https://prismsoftware.com/support/assets/plugins/bootstrap/css/bootstrap.css"
   }), /*#__PURE__*/_react.default.createElement("link", {
     rel: "stylesheet",
-    href: "../../assets/plugins/animate.css"
+    href: "https://prismsoftware.com/support/assets/plugins/animate.css"
   }), /*#__PURE__*/_react.default.createElement("link", {
     rel: "stylesheet",
-    href: "../../assets/plugins/line-icons/line-icons.css"
+    href: "https://prismsoftware.com/support/assets/plugins/line-icons/line-icons.css"
   }), /*#__PURE__*/_react.default.createElement("link", {
     rel: "stylesheet",
-    href: "../../assets/plugins/font-awesome/css/font-awesome.min.css"
+    href: "https://prismsoftware.com/support/assets/plugins/font-awesome/css/font-awesome.min.css"
   }), /*#__PURE__*/_react.default.createElement("link", {
     rel: "stylesheet",
-    href: "../../assets/plugins/fancybox/source/jquery.fancybox.css"
+    href: "https://prismsoftware.com/support/assets/plugins/fancybox/source/jquery.fancybox.css"
   }), /*#__PURE__*/_react.default.createElement(_reactHelmet.Helmet, null, /*#__PURE__*/_react.default.createElement("script", {
     type: "text/javascript",
     async: true,
@@ -59178,32 +59343,32 @@ function Footer() {
     }
   }, /*#__PURE__*/_react.default.createElement("link", {
     rel: "stylesheet",
-    href: "../../assets/css/footers/footer-v6.css"
+    href: "https://prismsoftware.com/support/assets/css/footers/footer-v6.css"
   }), /*#__PURE__*/_react.default.createElement("link", {
     rel: "stylesheet",
-    href: "../../assets/css/custom.css"
+    href: "https://prismsoftware.com/support/assets/css/custom.css"
   }), /*#__PURE__*/_react.default.createElement("link", {
     rel: "stylesheet",
-    href: "../../assets/css/theme-colors/default.css",
+    href: "https://prismsoftware.com/support/assets/css/theme-colors/default.css",
     id: "style_color"
   }), /*#__PURE__*/_react.default.createElement("link", {
     rel: "stylesheet",
-    href: "../../assets/css/theme-skins/dark.css"
+    href: "https://prismsoftware.com/support/assets/css/theme-skins/dark.css"
   }), /*#__PURE__*/_react.default.createElement("link", {
     rel: "stylesheet",
-    href: "../../assets/css/blocks.css"
+    href: "https://prismsoftware.com/support/assets/css/blocks.css"
   }), /*#__PURE__*/_react.default.createElement("link", {
     rel: "stylesheet",
-    href: "../../assets/css/style.css"
+    href: "https://prismsoftware.com/support/assets/css/style.css"
   }), /*#__PURE__*/_react.default.createElement("link", {
     rel: "stylesheet",
-    href: "../../assets/css/app.css"
+    href: "https://prismsoftware.com/support/assets/css/app.css"
   }), /*#__PURE__*/_react.default.createElement("link", {
     rel: "stylesheet",
-    href: "../../assets/plugins/bootstrap/css/bootstrap.min.css"
+    href: "https://prismsoftware.com/support/assets/plugins/bootstrap/css/bootstrap.min.css"
   }), /*#__PURE__*/_react.default.createElement("link", {
     rel: "stylesheet",
-    href: "../../assets/plugins/bootstrap/css/bootstrap.css"
+    href: "https://prismsoftware.com/support/assets/plugins/bootstrap/css/bootstrap.css"
   }), /*#__PURE__*/_react.default.createElement("link", {
     rel: "stylesheet",
     type: "text/css",
@@ -59294,7 +59459,10 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 function Contacts() {
   return /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("div", {
-    className: "container"
+    className: "container",
+    style: {
+      marginTop: '40px'
+    }
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "row"
   }, /*#__PURE__*/_react.default.createElement("div", {
@@ -59313,7 +59481,7 @@ function Contacts() {
     className: "card"
   }, /*#__PURE__*/_react.default.createElement("h3", null, "Technical Support"), /*#__PURE__*/_react.default.createElement("p", null, "+1 (949) 855-3100 Ext. 1"), /*#__PURE__*/_react.default.createElement("p", null, /*#__PURE__*/_react.default.createElement("a", {
     href: 'mailto:support@prismsoftware.com'
-  }, "sales@prismsoftware.com")), /*#__PURE__*/_react.default.createElement("p", {
+  }, "support@prismsoftware.com")), /*#__PURE__*/_react.default.createElement("p", {
     style: {
       textAlign: 'center'
     }
@@ -59359,7 +59527,7 @@ function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && 
 const App = () => {
   //const isPortrait = useMediaQuery({ query: '(orientation: portrait)' })
   //const isRetina = useMediaQuery({ query: '(min-resolution: 2dppx)' })
-  return /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement(_Header.default, null), /*#__PURE__*/_react.default.createElement(_headPhoto.default, null), /*#__PURE__*/_react.default.createElement(_icons.default, null), /*#__PURE__*/_react.default.createElement(_contacts.default, null), /*#__PURE__*/_react.default.createElement(_demo.default, null), /*#__PURE__*/_react.default.createElement(_footer.default, null));
+  return /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement(_Header.default, null), /*#__PURE__*/_react.default.createElement(_icons.default, null), /*#__PURE__*/_react.default.createElement(_contacts.default, null), /*#__PURE__*/_react.default.createElement(_demo.default, null), /*#__PURE__*/_react.default.createElement(_footer.default, null));
 };
 
 var _default = App;
@@ -59524,7 +59692,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62263" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59537" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

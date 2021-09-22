@@ -1,27 +1,36 @@
 import React from 'react';
-import "../../assets/css/footers/footer-v6.css";
-import "../../assets/css/custom.css";
-import "../../assets/css/theme-colors/default.css";
-import "../../assets/css/theme-skins/dark.css";
-import "../../assets/css/blocks.css";
-import "../../assets/css/style.css";
-import "../../assets/css/app.css";
-import "../../assets/plugins/bootstrap/css/bootstrap.min.css";
-import "../../assets/plugins/bootstrap/css/bootstrap.css";
+
 
 
 function Footer() {
     return (
         <div stlye={{ marginTop: 50, dispaly: 'flex', position: 'relative' }}>
-        <link rel="stylesheet" href="../../assets/css/footers/footer-v6.css" />
-        <link rel="stylesheet" href="../../assets/css/custom.css" />
-        <link rel="stylesheet" href="../../assets/css/theme-colors/default.css" id="style_color" />
-        <link rel="stylesheet" href="../../assets/css/theme-skins/dark.css" />
-        <link rel="stylesheet" href="../../assets/css/blocks.css" />
-        <link rel="stylesheet" href="../../assets/css/style.css" />
-        <link rel="stylesheet" href="../../assets/css/app.css" />
-        <link rel="stylesheet" href="../../assets/plugins/bootstrap/css/bootstrap.min.css" />
-        <link rel="stylesheet" href="../../assets/plugins/bootstrap/css/bootstrap.css" />
+        <script type="text/babel" src="/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+        <script type="text/babel" src="/assets/jquery/jquery.min.js"></script>
+        <script type="text/babel" src="/assets/jquery/jquery-migrate.min.js"></script>
+        <script type="text/babel" src="/assets/plugins/back-to-top.js"></script>
+        <script type="text/babel" src="/assets/plugins/smoothScroll.js"></script>
+        <script type="text/babel" src="/assets/waypoints.min.js"></script>
+        <script type="text/babel" src="/assets/plugins/jquery.parallax.js"></script>
+        <script type="text/babel" src="/assets/plugins/counter/jquery.counterup.min.js"></script>
+        <script type="text/babel" src="assets/plugins/jquery/jquery.fancybox.pack.js"></script>
+        <script type="text/babel" src="/assets/js/custom.js"></script>
+        <script type="text/babel" src="/assets/js/app.js"></script>
+        <script type="text/babel" src="/assets/plugins/wow-animations/js/wow.min.js"></script>
+        <script type="text/babel" src="/assets/js/plugins/fancy-box.js"></script>
+        <script type="text/babel" src="/assets/js/plugins/style-switcher.js"></script>
+        <script type="text/babel" src="/assets/plugins/respond.js"></script>
+        <script type="text/babel" src="/assets/plugins/html5shiv.js"></script>
+        <script type="text/babel" src="/assets/plugins/placeholder-IE-fixes.js"></script>
+        <link rel="stylesheet" href="/assets/css/footers/footer-v6.css" />
+        <link rel="stylesheet" href="/assets/css/custom.css" />
+        <link rel="stylesheet" href="/assets/css/theme-colors/default.css" id="style_color" />
+        <link rel="stylesheet" href="/assets/css/theme-skins/dark.css" />
+        <link rel="stylesheet" href="/assets/css/blocks.css" />
+        <link rel="stylesheet" href="/assets/css/style.css" />
+        <link rel="stylesheet" href="/assets/css/app.css" />
+        <link rel="stylesheet" href="/assets/plugins/bootstrap/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="/assets/plugins/bootstrap/css/bootstrap.css" />
         <link rel='stylesheet' type='text/css'
         href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600&amp;subset=cyrillic,latin' />
 

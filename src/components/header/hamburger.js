@@ -30,21 +30,35 @@ class Hamburger extends Component {
                     </label>
                 
                     <nav className="menu1" style={{ justifyItems: 'left' }}>
-                    <a className=" text-uppercase link1" href="" style={{ textAlign: 'left', marginBottom: '10px' }}>Products</a>
-                     <hr class="solid" style={{ marginBottom: '10px' }}/>
-                    <a className="text-uppercase link1" href="" style={{ textAlign: 'left', marginBottom: '10px' }}>Support</a>
-                    <hr className="solid" style={{ marginBottom: '10px' }} />
-                    <a className="text-uppercase link1" href="" style={{ textAlign: 'left', marginBottom: '10px' }}>About</a>
-                    <hr className="solid" style={{ marginBottom: '10px' }}/>
-                    <a  href='https://prismsoftware.com/contact-us/'>
-                        <button className='text-uppercase btn-u btn-u-blue' style={{ padding: '0px 5px 0px 5px' }}>
-                            Schedule a Demo
-                        </button>
-                    </a>
+                        <ul>
+                            <li>
+                                <a className="dropdown text-uppercase link1" href="#" style={{ textAlign: 'left', marginBottom: '10px' }}>Products</a>
+                                <ul>
+                                    <li>
+                                        <a href="">dropdown</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <hr class="solid" style={{ marginBottom: '10px' }}/>
+                            <li>
+                                <a className="dropdown text-uppercase link1" href="#" style={{ textAlign: 'left', marginBottom: '10px' }}>Support</a>
+                            </li>
+                            <hr className="solid" style={{ marginBottom: '10px' }} />
+                            <li>
+                                <a className="dropdown text-uppercase link1" href="#" style={{ textAlign: 'left', marginBottom: '10px' }}>About</a>
+                            </li>
+                            <hr className="solid" style={{ marginBottom: '10px' }}/>
+                            <a  href='https://prismsoftware.com/contact-us/'>
+                                <button className='text-uppercase btn-u btn-u-blue' style={{ padding: '0px 5px 0px 5px' }}>
+                                    Schedule a Demo
+                                </button>
+                            </a>
 
+                        </ul>
                     </nav>
                 </nav>
             </section>
+
             </div>
         )
     }
