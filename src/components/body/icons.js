@@ -173,7 +173,7 @@ function Icons() {
                     </div>
                     </div>
                 </MediaQuery>
-                <MediaQuery minDeviceWidth={961}>
+                <MediaQuery minDeviceWidth={961} maxDeviceWidth={2000}>
                     <div className='card-cont' style={{ position: 'relative', display: 'flex', justifyContent: 'center' }}>
                     <div className='container-2'>
                     <a href={"mailto:support@prismsoftware.com"} target="_blank" style={{ textDecoration: 'none' }}>
@@ -209,6 +209,46 @@ function Icons() {
                             <FontAwesomeIcon icon={faVideo} style={{ zIndex:99, fontSize: '2.5rem', color: 'white', marginLeft: 12 }}></FontAwesomeIcon>
                         </div>
                         <span style={{ paddingTop: 50, marginLeft: '-25px', fontSize: 20 }}>Product<br/>Training Videos</span>
+                    </a>
+                    </div>
+                    </div>
+                </MediaQuery>
+                <MediaQuery minDeviceWidth={2001}>
+                    <div className='card-cont' style={{ position: 'relative', display: 'flex', justifyContent: 'center' }}>
+                    <div className='container-2'>
+                    <a href={"mailto:support@prismsoftware.com"} target="_blank" style={{ textDecoration: 'none' }}>
+                        <div className='fas fa-layers fa-fw' style={{ marginLeft: -70, marginTop: 100 }} >
+                            <FontAwesomeIcon className='circle' icon={faCircle} style={{ fontSize: '6rem', color: '#158cc3' }}></FontAwesomeIcon>
+                            <FontAwesomeIcon className='search' icon={faEnvelope} style={{ zIndex:99, fontSize: '3rem', color: '#fff', marginLeft: 15.7 }}></FontAwesomeIcon>
+                        </div>
+                        <span style={{ paddingTop: 50, marginLeft: '-80px', fontSize: 20 }}>Request<br/>Support</span>
+                    </a>
+                    </div>
+                    <div className='container-2'>
+                    <a href="https://get.teamviewer.com/prismsoftware" target="_blank" style={{ textDecoration: 'none' }} >
+                        <div className=' fas fa-layers fa-fw' style={{ marginLeft: 105, marginTop: 100 }} >
+                            <FontAwesomeIcon icon={faCircle} style={{ fontSize: '6rem', color: '#158cc3' }}></FontAwesomeIcon>
+                            <FontAwesomeIcon icon={faDesktop} style={{ zIndex:99, fontSize: '3rem', color: 'white', marginLeft: 13 }}></FontAwesomeIcon>
+                        </div>
+                        <span style={{ paddingTop: 50, marginLeft: '80px', marginRight: '-10px', fontSize: 20 }}>Get Remote<br/>Support</span>
+                    </a>
+                    </div>
+                    <div className='container-2'>
+                    <a href="https://prismsupport.com/documentation" target="_blank" style={{ textDecoration: 'none' }} >
+                        <div className=' fas fa-layers fa-fw' style={{ marginLeft: 91, marginTop: 100 }} >
+                            <FontAwesomeIcon icon={faCircle} style={{ fontSize: '6rem', color: '#158cc3' }}></FontAwesomeIcon>
+                            <FontAwesomeIcon icon={faCopy} style={{ zIndex:99, fontSize: '3rem', color: 'white', marginLeft: 18 }}></FontAwesomeIcon>
+                        </div>
+                        <span style={{ paddingTop: 50, marginLeft: '50px', marginRight: '-10px', fontSize: 20 }}>Product<br/>Documentation</span>
+                    </a>
+                    </div>
+                    <div className='container-2'>
+                    <a href="https://www.prismsupport.com/documentation/Content/A_IntroTopics/Video-Library.htm" target="_blank" style={{ textDecoration: 'none' }} >
+                        <div className=' fas fa-layers fa-fw' style={{ marginLeft: 91, marginTop: 100 }} >
+                            <FontAwesomeIcon icon={faCircle} style={{ fontSize: '6rem', color: '#158cc3' }}></FontAwesomeIcon>
+                            <FontAwesomeIcon icon={faVideo} style={{ zIndex:99, fontSize: '3rem', color: 'white', marginLeft: 14 }}></FontAwesomeIcon>
+                        </div>
+                        <span style={{ paddingTop: 50, marginLeft: '50px', fontSize: 20 }}>Product<br/>Training Videos</span>
                     </a>
                     </div>
                     </div>

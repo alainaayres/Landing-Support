@@ -117,7 +117,7 @@ export class Header extends Component {
           <div className='header-v6 header-classic-white-sticky header-sticky' style={{ position: 'relative', width: '100%',top: '0', backgroundColor: 'white' }}>
             {/* Navbar */}
             <MediaQuery maxDeviceWidth={992} style={{ justifyContent: 'left' }}>
-            <div className='container-fluid'>
+            <div className='container-fluid' style={{ marginBottom: '-35px' }}>
                   <div className="navbar-brand" style={{ justifyContent:'left', marginLeft: '-85px' }}>
                         <a href="https://www.prismsoftware.com/">
                           <img className="shrink-logo" src={logo} alt="Prism Software" title="Logo" style={{ justifyContent:'left' }}/>
@@ -135,81 +135,90 @@ export class Header extends Component {
                     
                   <div className="menu1" style={{ justifyItems: 'left', marginLeft: 35 }}>
                     <div className='navbar-collapse navbar-responsive-collapse collapse in' aria-expanded='true'>
-                      <div className='menu-container'>
-                        <ul className='nav navbar-nav'> 
+                      <div className='menu-container' >
+                        <ul className='nav navbar-nav' > 
                           <li className='dropdown mega-menu-fullwidth'>
                             <a className=" text-uppercase link1 dropdown-toggle" href data-toggle="dropdown" style={{ textAlign: 'left', fontWeight: 400 }}>Products</a>
+                            <div className="dropdown-divider"></div>
                               <ul className="dropdown-menu" style={{ width: '70%', left: '8%', right: '8%' }}>
                                   <li >
                                     <div className="mega-menu-content disable-icons">
                                       <div className="container">
                                         <div className="row equal-height" style={{ marginLeft: -5 }}>
-                                          <div className="col-md-4 equal-height-in">
+                                          <div >
                                             <ul className="list-unstyled equal-height-list" >
                                               <li>
-                                                <h3 style={{ fontWeight: 400 }}>Enterprise Content Management (ECM)</h3>
+                                                <h3 style={{ fontWeight: 400, fontSize: '13px' }}>Enterprise Content Management (ECM)</h3>
+                                                <div className="dropdown-divider"></div>
                                               </li>
+                                              
                                               {/* ECM */}
-                                              <li><a href="https://www.prismsoftware.com/products/ecm/" target="_blank">DocRecord</a>
+                                              <li><a href="https://www.prismsoftware.com/products/ecm/" target="_blank" style={{ fontSize: '13px' }}>DocRecord</a>
                                               </li>
                                               {/* End ECM */}
                                               <br />
                                               <li>
-                                                <h3 style={{ fontWeight: 400 }}>Desktop Document Processing &amp; Workflow</h3>
+                                                <h3 style={{ fontWeight: 400, fontSize: '13px' }}>Desktop Document Processing &amp; Workflow</h3>
+                                                <div className="dropdown-divider"></div>
                                               </li>
                                               {/* WorkPath family */}
                                               <li>
-                                                <a href="https://www.prismsoftware.com/products/prism-workpath/" target="_blank">
+                                                <a href="https://www.prismsoftware.com/products/prism-workpath/" target="_blank" style={{ fontSize: '13px' }}>
                                                   Prism WorkPath</a>
                                               </li>
                                               <br />
                                               <li>
-                                                <h3 style={{ fontWeight: 400 }}>Smartphone Forms with eSignature</h3>
+                                                <h3 style={{ fontWeight: 400, fontSize: '13px'}}>Smartphone Forms with eSignature</h3>
+                                                <div className="dropdown-divider"></div>
                                               </li>
                                               <li>
-                                                <a href="https://www.prismsoftware.com/products/smartphone-forms/" target="_blank">Smartphone Forms
+                                                <a href="https://www.prismsoftware.com/products/smartphone-forms/" target="_blank" style={{ fontSize: '13px' }}>Smartphone Forms
                                                 </a>
                                               </li>
                                               {/* End WorkPath family*/}
                                             </ul>
-                                          </div>
-                                          <div className="col-md-4 equal-height-in">
+                                         
+                                       
                                             <ul className="list-unstyled equal-height-list">
                                               <li>
-                                                <h3 style={{ fontWeight: 400 }}>Automated Data Capture &amp; Extraction</h3>
+                                                <h3 style={{ fontWeight: 400, fontSize: '13px' }}>Automated Data Capture &amp; Extraction</h3>
+                                                <div className="dropdown-divider"></div>
                                               </li>
                                               <li>
-                                                <a href="https://www.prismsoftware.com/products/prism-capture/" target="_blank">Prism
+                                                <a href="https://www.prismsoftware.com/products/prism-capture/" target="_blank" style={{ fontSize: '13px' }}>Prism
                                                   Capture</a></li>
                                               <br />
                                               <li>
-                                                <h3 style={{ fontWeight: 400 }}>Automated Processing of Scanned Documents</h3>
+                                                <h3 style={{ fontWeight: 400, fontSize: '13px' }}>Automated Processing of Scanned Documents</h3>
+                                                <div className="dropdown-divider"></div>
                                               </li>
                                               <li>
-                                                <a href="https://www.prismsoftware.com/products/scanpath/" target="_blank">ScanPath</a>
+                                                <a href="https://www.prismsoftware.com/products/scanpath/" target="_blank" style={{ fontSize: '13px' }}>ScanPath</a>
                                               </li>
                                               <br />
                                               <li>
-                                                <h3 style={{ fontWeight: 400 }}>Automated Business Communications</h3>
+                                                <h3 style={{ fontWeight: 400, fontSize: '13px' }}>Automated Business Communications</h3>
+                                                <div className="dropdown-divider"></div>
                                               </li>
                                               <li>
-                                                <a href="https://www.prismsoftware.com/products/docform/" target="_blank">DocForm</a> 
+                                                <a href="https://www.prismsoftware.com/products/docform/" target="_blank" style={{ fontSize: '13px' }}>DocForm</a> 
                                               </li>
                                             </ul>
-                                          </div>
-                                          <div className="col-md-4 equal-height-in">
+                              
                                             <ul className="list-unstyled equal-height-list">
                                               <li>
-                                                <h3 style={{ fontWeight: 400 }}>eForms &amp; Data Collection</h3>
+                                                <h3 style={{ fontWeight: 400, fontSize: '13px' }}>eForms &amp; Data Collection</h3>
+                                                <div className="dropdown-divider"></div>
                                               </li>
                                               <li>
-                                                <a href="https://www.prismsoftware.com/products/electronic-forms/" target="_blank">eForms</a>
+                                                <a href="https://www.prismsoftware.com/products/electronic-forms/" target="_blank" style={{ fontSize: '13px' }}>eForms</a>
                                               </li>
                                               <br />
                                               <li>
-                                                <h3 style={{ fontWeight: 400 }}>MFP Security &amp; Breach Alerts</h3>
+                                                <h3 style={{ fontWeight: 400, fontSize: '13px' }}>MFP Security &amp; Breach Alerts</h3>
+                                                <div className="dropdown-divider"></div>
                                               </li>
-                                              <li><a href="https://www.prismsoftware.com/products/bizhub-secure-alert/" target="_blank">bizhub
+                                              <li><a href="https://www.prismsoftware.com/products/bizhub-secure-alert/" target="_blank" style={{ fontSize: '13px' }}>bizhub
                                                   SECURE Alert</a>
                                               </li>
                                               <br />
@@ -223,38 +232,40 @@ export class Header extends Component {
                                   </li>
                                 </ul>
                               </li>
-                            {/*<hr class="solid"/>*/}
+                           
                             <li className='dropdown'>
-                            <a className="text-uppercase link1" href data-toggle="dropdown" style={{ textAlign: 'left', appearance: 'none', border: 'none', fontWeight: 400 }}>Support</a>
+                            <a className="dropdown-toggle" href data-toggle="dropdown" style={{ textAlign: 'left', border: 'none', fontWeight: 400 }}>Support</a>
+                            <div className="dropdown-divider"></div>
                               <ul className="dropdown-menu" >
                                   <li>
                                     <div className="dropdown disable-icons" >
                                       <div className="dropdown-list" style={{ marginLeft: 10 }}>
                                         <ul className=" list-unstyled equal-height-list" >
-                                          <li><a href="http://support.prismsoftware.com"> Support</a></li>
+                                          <li><a href="http://support.prismsoftware.com" style={{ fontSize: '13px' }}> Support</a></li>
                                           <br />
-                                          <li className><a href="https://prismsupport.com/documentation" target="_blank">Product Documentation</a></li>
+                                          <li className><a href="https://prismsupport.com/documentation" target="_blank" style={{ fontSize: '13px' }}>Product Documentation</a></li>
                                           <br />
-                                          <li className><a href="https://www.prismsupport.com/documentation/Content/A_IntroTopics/Video-Library.htm" target="_blank">Product Training Videos</a></li>
+                                          <li className><a href="https://www.prismsupport.com/documentation/Content/A_IntroTopics/Video-Library.htm" target="_blank" style={{ fontSize: '13px' }}>Product Training Videos</a></li>
                                         </ul>
                                       </div>
                                     </div>
                                   </li>
                                 </ul>
                               </li>
-                            {/*<hr class="solid"/>*/}
+                      
                             <li className="dropdown" style={{ marginBottom: 10 }}>
                                 <a href className="text-uppercase link1 dropdown-toggle" data-toggle="dropdown" style={{ cursor: 'pointer', fontWeight: 400 }}>
                                   About
                                 </a>
+                                <div class="dropdown-divider"></div>
                                 <ul className="dropdown-menu">
                                   <li>
                                     <div className="dropdown disable-icons" style={{ marginLeft: 12 }}>
                                       <div className="dropdown-list">
                                         <ul className=" list-unstyled equal-height-list">
-                                          <li><a href="https://prismsoftware.com/about/" target="_blank"> Company</a></li>
+                                          <li><a href="https://prismsoftware.com/about/" target="_blank" style={{ fontSize: '13px' }}> Company</a></li>
                                           <br />
-                                          <li className><a href="https://prismsoftware.com/news/" target="_blank">News</a></li>
+                                          <li className><a href="https://prismsoftware.com/news/" target="_blank" style={{ fontSize: '13px' }}>News</a></li>
                                         </ul>
                                       </div>
                                     </div>
@@ -262,9 +273,9 @@ export class Header extends Component {
                                 </ul>
                               </li>
 
-                            {/*<hr class="solid"/>*/}
-                            <a className="dropdown-toggle" href="https://prismsoftware.com/contact-us/" target="_blank">
-                                  <button type="submit" className="text-uppercase btn-u btn-u-blue" style={{padding: '0px 5px 0px 5px', marginBottom: '50px'}}>Schedule a Demo </button>
+                        
+                            <a className="dropdown-toggle" href="https://prismsoftware.com/contact-us/" target="_blank" style={{ marginBottom: '60px' }}>
+                                  <button type="submit" className="text-uppercase btn-u btn-u-blue" style={{padding: '0px 5px 0px 5px', marginBottom: '30px', marginTop: '8px'}}>Schedule a Demo </button>
                             </a>
 
                             </ul>
@@ -308,7 +319,7 @@ export class Header extends Component {
                         <a href className="dropdown-toggle" target data-toggle="dropdown" style={{ cursor: 'pointer' }} >
                           Products
                         </a>
-                        <ul className="first dropdown-menu" style={{ width: '70%', left: '8%', right: '8%' }}>
+                        <ul className="first dropdown-menu" style={{ width: '92%', left: '8%', right: '8%' }}>
                           <li >
                             <div className="mega-menu-content disable-icons">
                               <div className="container">

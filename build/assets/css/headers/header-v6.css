@@ -401,7 +401,7 @@
 
     .header-v6 .navbar-collapse {
 		border-color: #eee;
-    	border-bottom: 1px solid #eee;
+
     }
 
     .header-v6 .navbar-collapse.collapse {
@@ -504,7 +504,6 @@
 
 	.header-v6 .navbar-nav > li a {
 		border-bottom: none;
-		border-top: 1px solid #eee;
 	}
 
 	.header-v6 .navbar-nav > li:first-child > a {
@@ -589,7 +588,7 @@
 		border-radius: 0;
 		background: #fff;
 		z-index: 9999 !important;
-		border-top: solid 3px #158cc3;
+		font-family: "Open Sans", sans-serif;
 	}
 
 	.header-v6 .dropdown-menu li a {
@@ -795,6 +794,7 @@
 	padding: 5px 10px 5px 15px;
 	text-transform: uppercase;
 	text-decoration: none;
+	font-family: "Open Sans", sans-serif;
 }
 
 /*Space for only Big Resolution*/
@@ -851,6 +851,7 @@
     /*Dropdown Arrow Icons Disable class*/
     .header-v6 .mega-menu .mega-menu .disable-icons li a {
     	padding: 5px 10px 5px 15px;
+		font-family: "Open Sans", sans-serif;
     }
 
     .header-v6 .mega-menu .mega-menu .disable-icons li a:after {
@@ -907,6 +908,7 @@
 		font-size: 13px;
 		font-weight: 400;
 		padding: 6px 15px 5px;
+		font-family: "Open Sans", sans-serif;
 	}
 
 	.header-v6 .mega-menu .equal-height-list li a {
@@ -925,6 +927,7 @@
 		color: #158cc3;
 		background-color: transparent;
 		text-decoration: none;
+		font-family: "Open Sans", sans-serif;
 	}
 
 	.header-v6 .mega-menu .equal-height-list li a:hover {
@@ -1292,11 +1295,13 @@
 
 	.header-v6.header-dark-dropdown .dropdown-menu li a {
 		color: #ccc;
+		font-family: "Open Sans", sans-serif;
 	}
 
 	.header-v6.header-dark-dropdown .dropdown-menu .active > a,
 	.header-v6.header-dark-dropdown .dropdown-menu li > a:hover {
 		color: #158cc3;
+		font-family: "Open Sans", sans-serif;
 	}
 
 	/*Equal Height List Style*/
@@ -1306,15 +1311,18 @@
 
     .header-v6.header-dark-dropdown .mega-menu .equal-height-list h3 {
 		color: #fff;
+		font-family: "Open Sans", sans-serif;
 	}
 
 	.header-v6.header-dark-dropdown .mega-menu .equal-height-list li a {
 		color: #ccc;
 	}
+	font-family: "Open Sans", sans-serif;
 
 	.header-v6.header-dark-dropdown .mega-menu .equal-height-list .active > a,
 	.header-v6.header-dark-dropdown .mega-menu .equal-height-list li a:hover {
 		color: #158cc3;
+		font-family: "Open Sans", sans-serif;
 	}
 }
 
@@ -1412,11 +1420,13 @@
 	/*Submenu*/
 	.header-v6.header-dark-res-nav .dropdown .dropdown-submenu > a {
 		color: #fff !important;
+		font-family: "Open Sans", sans-serif;
 	}
 
 	/*Mega Menu*/
 	.header-v6.header-dark-res-nav .mega-menu .equal-height-list h3 {
 		color: #fff;
+		font-family: "Open Sans", sans-serif;
 	}
 }
 
@@ -1575,6 +1585,7 @@
 
     .header-v6.header-classic-dark .mega-menu .equal-height-list h3 {
 		color: #fff;
+		font-family: "Open Sans", sans-serif;
 	}
 
 	.header-v6.header-classic-dark .mega-menu .equal-height-list li a {
