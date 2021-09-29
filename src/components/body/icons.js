@@ -12,11 +12,11 @@ import bootstrap from 'bootstrap';
 function Icons() {
 
         return (
-            <div className='container-fluid' >
+            <div  >
             <MediaQuery minDeviceWidth={300} maxDeviceWidth={599}>
                     <div className='card-cont' style={{ position: 'relative', display: 'flex', justifyContent: 'center' }}>
                         <div className='row' style={{ justifyContent: 'center' }}>
-                            <div className='container-2'>
+                            <div style={{ display: 'flex', justifyContent: 'space-evenly', textDecoration: 'none', marginLeft: '100px' }}>
                             <div className='column'>
                                 <a href={"mailto:support@prismsoftware.com"} target="_blank" style={{ textDecoration: 'none' }}>
                                     <div className='fas fa-layers fa-fw' style={{ marginLeft: -54, marginTop: 50 }} >
@@ -38,7 +38,7 @@ function Icons() {
                             
                         </div>
                         <div className='row' style={{ justifyContent: 'center' }}>
-                            <div className='container-2'>
+                            <div style={{ display: 'flex', justifyContent: 'space-evenly', textDecoration: 'none', marginLeft: '100px' }}>
                                 <div className='column'>
                                     <a href="https://www.prismsupport.com/documentation/Content/A_IntroTopics/Video-Library.htm" target="_blank" style={{ textDecoration: 'none' }} >
                                         <div className=' fas fa-layers fa-fw' style={{ marginLeft: -20, marginTop: 60 }} >
