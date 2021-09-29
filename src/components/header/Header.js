@@ -138,7 +138,7 @@ export class Header extends Component {
                       <div className='menu-container' >
                         <ul className='nav navbar-nav' > 
                           <li className='dropdown mega-menu-fullwidth'>
-                            <a className=" text-uppercase link1 dropdown-toggle" href data-toggle="dropdown" style={{ textAlign: 'left', fontWeight: 400 }}>Products</a>
+                            <a className=" dropdown-toggle" href data-toggle="dropdown" style={{ textAlign: 'left', fontWeight: 400 }}>Products</a>
                             <div className="dropdown-divider"></div>
                               <ul className="dropdown-menu" style={{ width: '70%', left: '8%', right: '8%' }}>
                                   <li >
@@ -148,7 +148,7 @@ export class Header extends Component {
                                           <div >
                                             <ul className="list-unstyled equal-height-list" >
                                               <li>
-                                                <h3 style={{ fontWeight: 400, fontSize: '13px' }}>Enterprise Content Management (ECM)</h3>
+                                                <h3 className='text-uppercase' style={{ fontWeight: 400, fontSize: '13px' }}>Enterprise Content Management (ECM)</h3>
                                                 <div className="dropdown-divider"></div>
                                               </li>
                                               
@@ -158,7 +158,7 @@ export class Header extends Component {
                                               {/* End ECM */}
                                               <br />
                                               <li>
-                                                <h3 style={{ fontWeight: 400, fontSize: '13px' }}>Desktop Document Processing &amp; Workflow</h3>
+                                                <h3 className='text-uppercase' style={{ fontWeight: 400, fontSize: '13px' }}>Desktop Document Processing &amp; Workflow</h3>
                                                 <div className="dropdown-divider"></div>
                                               </li>
                                               {/* WorkPath family */}
@@ -168,20 +168,18 @@ export class Header extends Component {
                                               </li>
                                               <br />
                                               <li>
-                                                <h3 style={{ fontWeight: 400, fontSize: '13px'}}>Smartphone Forms with eSignature</h3>
+                                                <h3 className='text-uppercase' style={{ fontWeight: 400, fontSize: '13px'}}>Smartphone Forms with eSignature</h3>
                                                 <div className="dropdown-divider"></div>
                                               </li>
                                               <li>
                                                 <a href="https://www.prismsoftware.com/products/smartphone-forms/" target="_blank" style={{ fontSize: '13px' }}>Smartphone Forms
                                                 </a>
                                               </li>
+                                              <br />
                                               {/* End WorkPath family*/}
-                                            </ul>
-                                         
-                                       
-                                            <ul className="list-unstyled equal-height-list">
+
                                               <li>
-                                                <h3 style={{ fontWeight: 400, fontSize: '13px' }}>Automated Data Capture &amp; Extraction</h3>
+                                                <h3 className='text-uppercase' style={{ fontWeight: 400, fontSize: '13px' }}>Automated Data Capture &amp; Extraction</h3>
                                                 <div className="dropdown-divider"></div>
                                               </li>
                                               <li>
@@ -189,7 +187,7 @@ export class Header extends Component {
                                                   Capture</a></li>
                                               <br />
                                               <li>
-                                                <h3 style={{ fontWeight: 400, fontSize: '13px' }}>Automated Processing of Scanned Documents</h3>
+                                                <h3 className='text-uppercase' style={{ fontWeight: 400, fontSize: '13px' }}>Automated Processing of Scanned Documents</h3>
                                                 <div className="dropdown-divider"></div>
                                               </li>
                                               <li>
@@ -197,17 +195,16 @@ export class Header extends Component {
                                               </li>
                                               <br />
                                               <li>
-                                                <h3 style={{ fontWeight: 400, fontSize: '13px' }}>Automated Business Communications</h3>
+                                                <h3 className='text-uppercase' style={{ fontWeight: 400, fontSize: '13px' }}>Automated Business Communications</h3>
                                                 <div className="dropdown-divider"></div>
                                               </li>
                                               <li>
                                                 <a href="https://www.prismsoftware.com/products/docform/" target="_blank" style={{ fontSize: '13px' }}>DocForm</a> 
                                               </li>
-                                            </ul>
-                              
-                                            <ul className="list-unstyled equal-height-list">
+                                              <br />
+
                                               <li>
-                                                <h3 style={{ fontWeight: 400, fontSize: '13px' }}>eForms &amp; Data Collection</h3>
+                                                <h3 className='text-uppercase' style={{ fontWeight: 400, fontSize: '13px' }}>eForms &amp; Data Collection</h3>
                                                 <div className="dropdown-divider"></div>
                                               </li>
                                               <li>
@@ -215,7 +212,7 @@ export class Header extends Component {
                                               </li>
                                               <br />
                                               <li>
-                                                <h3 style={{ fontWeight: 400, fontSize: '13px' }}>MFP Security &amp; Breach Alerts</h3>
+                                                <h3 className='text-uppercase' style={{ fontWeight: 400, fontSize: '13px' }}>MFP Security &amp; Breach Alerts</h3>
                                                 <div className="dropdown-divider"></div>
                                               </li>
                                               <li><a href="https://www.prismsoftware.com/products/bizhub-secure-alert/" target="_blank" style={{ fontSize: '13px' }}>bizhub
@@ -254,7 +251,7 @@ export class Header extends Component {
                               </li>
                       
                             <li className="dropdown" style={{ marginBottom: 10 }}>
-                                <a href className="text-uppercase link1 dropdown-toggle" data-toggle="dropdown" style={{ cursor: 'pointer', fontWeight: 400 }}>
+                                <a href className="dropdown-toggle" data-toggle="dropdown" style={{ cursor: 'pointer', fontWeight: 400 }}>
                                   About
                                 </a>
                                 <div class="dropdown-divider"></div>
@@ -319,7 +316,7 @@ export class Header extends Component {
                         <a href className="dropdown-toggle" target data-toggle="dropdown" style={{ cursor: 'pointer' }} >
                           Products
                         </a>
-                        <ul className="first dropdown-menu" style={{ width: '92%', left: '8%', right: '8%' }}>
+                        <ul className="first dropdown-menu" style={{ width: '100%', left: '8%', right: '8%' }}>
                           <li >
                             <div className="mega-menu-content disable-icons">
                               <div className="container">

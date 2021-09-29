@@ -8,7 +8,7 @@ function HeadPhoto() {
     return (
       
     <div className='header'>
-     <div className='container-fluid' style={{ maxHeight:'300px', position:'relative', fontSize:'4vw', marginBottom: '5vw' }} >
+     <div  style={{ maxHeight:'300px', position:'relative', fontSize:'4vw', marginBottom: '5vw' }} >
        <link rel="stylesheet" href={process.env.PUBLIC_URL + "/assets/css/blocks.css"} />
        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600&subset=cyrillic,latin" />
        <link rel="stylesheet" href={process.env.PUBLIC_URL + "/assets/css/custom.css"} />
